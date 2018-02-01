@@ -7,11 +7,11 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment;
-import com.example.juanjusue.appmenuteayudamos.Fragments.UsuariosPlantas;
+import com.example.juanjusue.appmenuteayudamos.Objetos.Usuarios;
 
 public class MainActivity extends AppCompatActivity {
     LoginFragment loginFragment;
-    UsuariosPlantas usuariosPlantas;
+    Usuarios user;
 
 
     @Override
@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loginFragment = (LoginFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
-        usuariosPlantas = new UsuariosPlantas();
+        user = new Usuarios();
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(loginFragment);
         transition.commit();
 
     }
     public void comprobarUser(View v){
-        if( usuariosPlantas.esUser(loginFragment.getEtUser().getText().toString(),loginFragment.getEtPass().getText().toString())){
+        if( user.esUser(loginFragment.getEtUser().getText().toString(),loginFragment.getEtPass().getText().toString())){
             Log.v("LoginFragment","siiii");
         }
         else{

@@ -16,7 +16,6 @@ import com.example.juanjusue.appmenuteayudamos.R;
  * A simple {@link Fragment} subclass.
  */
 public class LoginFragment extends Fragment {
-    UsuariosPlantas usuariosPlantas;
 
 
 
@@ -34,16 +33,12 @@ public class LoginFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_login, container, false);
-        usuariosPlantas = new UsuariosPlantas();
         etUser = v.findViewById(R.id.etUsuario);
         etPass = v.findViewById(R.id.etPass);
         btnLogin = v.findViewById(R.id.btnLogin);
         return v;
     }
 
-    public UsuariosPlantas getUsuariosPlantas() {
-        return usuariosPlantas;
-    }
 
     public EditText getEtUser() {
         return etUser;
