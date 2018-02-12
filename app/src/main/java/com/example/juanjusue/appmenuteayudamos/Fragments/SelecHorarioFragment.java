@@ -12,10 +12,10 @@ import com.example.juanjusue.appmenuteayudamos.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class selecHorarioFragment extends Fragment {
+public class SelecHorarioFragment extends Fragment {
 
 
-    public selecHorarioFragment() {
+    public SelecHorarioFragment() {
         // Required empty public constructor
     }
 

@@ -1,9 +1,200 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton22"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton21"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton23"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton19"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton24"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton20"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton17"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton18"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton19"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton10"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toEndOf="@+id/imageButton12"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton13"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="pasarCama"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="pasarCama"
+            />
+
+    </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>
