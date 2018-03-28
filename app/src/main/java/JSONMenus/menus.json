@@ -1,0 +1,3516 @@
+[
+	{
+        "id": 1,
+        "estacion": "Invierno",
+        "desayuno":[
+			{
+				"eleccion1": [
+                    {
+                     "nombre":"leche con cacao",
+                     "url":""
+                    },
+                    {
+                        "nombre":"yogurt",
+                        "url":""
+                    }
+                    ],
+                "eleccion2":[
+                    {
+                     "nombre":"pan",
+                     "url":""
+                    },
+                    {
+                        "nombre":"galletas",
+                        "url":""
+                    },
+                    {
+                        "nombre":"cereales",
+                        "url":""
+                    }
+                    ],
+                "eleccion3":[
+                    {
+                        "nombre":"mantequilla y mermelada",
+                        "url":""
+                    },
+                    {
+                        "nombre":"aceite y tomate",
+                        "url":""
+                    }
+                ]		
+            }	
+		],
+        "comida":[
+                {
+                    "semana1":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"purruslada",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"lentejas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pure de legumbres",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"pollo al ajillo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pescado al horno",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"lomo en su jugo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"fideua",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema san germán",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"hamburguesa con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado ajo mojo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias pintas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de calabacin",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pollo chilindron",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta a la crema",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"chuleta de sajonia",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"cocido",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de esparragos",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias blancas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"ragout de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado encebollado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con verdura",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pollo asado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york plancha",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado rioaja",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta boloñesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de champiñon",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"huevos zingara",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ],
+                    "semana2":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"patatas con carne",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"lentejas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pure de legumbres",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"ragout de ternera",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pescado rebozado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york plancha",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla francesa",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con verdura",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli rehogado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"rotti de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al ajillo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"puré de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judías verdes",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"cocido",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pisto manchego",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de coliflor",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"chuleta de sajonia jardinera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado andaluza",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"potaje de garbanzos",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"panache de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"surtido de fiambre",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado plancha",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"sopa de pescado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"paella",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pure de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pavo al chilindron",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado rebozado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa juliana",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta boloñesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"muslitos de pollo encebollados",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"salmon al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ]
+                    
+                }
+        ],
+        "merienda":[
+			{
+				"eleccion1": [
+                    {
+                     "nombre":"leche con cacao",
+                     "url":""
+                    },
+                    {
+                        "nombre":"yogurt",
+                        "url":""
+                    }
+                    ],
+                "eleccion2":[
+                    {
+                     "nombre":"zumo individual",
+                     "url":""
+                    },
+                    {
+                        "nombre":"galletas",
+                        "url":""
+                    },
+                    {
+                        "nombre":"fruta",
+                        "url":""
+                    },
+                    {
+                        "nombre":"compota",
+                        "url":""
+                    }
+                ]	
+            }	
+		],
+        "cena":[
+                {
+                    "semana1":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"crema de verduras",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"panaché de verduras",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con tomate",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"pescado marinera",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla francesa",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla de calabacin",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"crema vichy",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"coliflor rehogada",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"pollo al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"salchichas riojanas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"guisantes con jamon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"lombarda",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema parmentier",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ragout de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabaza",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"consomé",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado salsa verde",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"escalopin de cerdo en salsa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema reina",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"atun en salsa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabacin",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema vichy",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"panache de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"chuleta de sajonia jardinera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado bilbaina",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa minestrone",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"escalopines de cerdo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"muslitos de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado plancha",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ],
+                    "semana2":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"panache de verduras",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"crema vichy",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con tomate",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"hamburguesa salsa española",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla francesa",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"filete de pollo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con verdura",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli rehogado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"rotti de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al ajillo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"guisantes rehogados",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"patatas marinera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de calabaza",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"albondigas con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de esparragos",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"consomé",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"ragout de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"croquetas y empanadillas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema vichy",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz tres delicias",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"coliflor rehogada",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pollo asado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado adobado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"guisantes con jamon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"plomo carbonada",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pollo plancha",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabacion",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"escalopines braseados",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"merluza gallega",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ]
+                }
+        ]
+        
+    },
+    {
+        "id": 2,
+        "estacion": "Verano",
+        "desayuno":[
+			{
+				"eleccion1": ["leche con cacao","yogurt"],
+				"eleccion2":["pan","galletas","cereales"],
+				"eleccion3":["mantequilla y mermelada","aceite y tomate"]
+			}	
+		],
+        "comida":[
+           {
+                    "semana1":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"purruslada",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"broccolli rehogado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pure de verduras",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"pollo al ajillo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pescado plancha",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"lomo en su jugo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"gazpacho",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de verduras",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"hamburguesa con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado ajo mojo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada campera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de calabacin",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescadilla plancha",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta a la crema",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"salmorejo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"chuleta de sajonia",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de esparragos",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada de judias blancas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"ragout de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado encebollado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con verdura",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pollo asado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado riojana",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york plancha",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"salmorejo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta salteada con verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de champiñon",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"escalope de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ],
+                    "semana2":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"judias verdes",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"lentejas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pure de legumbres",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"ragout de ternera",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pescado rebozado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"filete de pollo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"gazpacho",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de legumbres",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"rotti de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al ajillo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabacin",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"compota",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pisto manchego",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de coliflor",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     { 
+                                          "nombre":"",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado andaluza",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"panache de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de ternera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema parmentier",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"paella",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"salmojero",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta boloñesa",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pavo al chilindron",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado rebozado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"filete de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"ensalada de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa juliana",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"muslitos de pollo encebollados",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ]
+                    
+                }
+        ],
+        "merienda":[
+			{
+				"eleccion1": [
+                    {
+                     "nombre":"leche con cacao",
+                     "url":""
+                    },
+                    {
+                        "nombre":"yogurt",
+                        "url":""
+                    }
+                    ],
+                "eleccion2":[
+                    {
+                     "nombre":"zumo individual",
+                     "url":""
+                    },
+                    {
+                        "nombre":"galletas",
+                        "url":""
+                    },
+                    {
+                        "nombre":"fruta",
+                        "url":""
+                    },
+                    {
+                        "nombre":"compota",
+                        "url":""
+                    }
+                ]	
+            }	
+		],
+        "cena":[
+           {
+                    "semana1":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"crema vichy",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"panache de verduras",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pasta con tomate",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"pescado marinera",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla francesa",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"tortilla de calabacin",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"crema vichy",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada de la huerta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"panache de verduras",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"pollo chilindron",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"salchichas al vino",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"sopa de picadillo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada de judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"arroz tres delicias",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ragout de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"lomo a la plancha",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de guisantes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado salsa verde",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"escalopin en salsa de naranja",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"atun en salsa de puerros",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla de patata",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabacion",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de calabaza",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"panache de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"chuleta de sajonia jardinera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado bilbaina",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa minestrone",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"huevos salsa rosa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"muslitos de pollo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado plancha",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ],
+                    "semana2":[
+                        {
+                            "lunes":[
+                                {
+                                    "eleccion1": [
+                                        {
+                                            "nombre":"pasta con tomate",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"sopa de pasta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"crema de calabacion",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"ensalada de arroz",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion2": [
+                                        {
+                                            "nombre":"hamburguesa salsa española",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"chuleta de cerdo",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"pescado salsa verde",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"jamon york y queso",
+                                            "url":""
+                                        }
+                                    ],
+                                    "eleccion3": [
+                                        {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                    ]
+                                }
+                            ],
+                          "martes":[
+                              {
+                                  "eleccion1":[
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de picadillo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensaladilla rusa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"consome",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion2":[
+                                      {
+                                          "nombre":"pollo asado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"calamares",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                  ],
+                                  "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                                                    
+                              }
+                          ],
+                        "miercoles":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"ensalada de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"consome",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de ave",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al horno",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"albondigas con tomate",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"arroz con leche",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "jueves":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de esparragos",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de arroz",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"guisantes con jamon",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     { 
+                                          "nombre":"ragout de pavo",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"croquetas y empanadillas",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "viernes":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema vichy",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada campera",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pasta con tomate",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pollo asado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"pescado adobado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"gelatina",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "sabado":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de verduras",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"ensalada mixta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"broccolli rehogado",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"pescado al limon",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"lomo carbonada",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"flan",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ],
+                        "domingo":[
+                            {
+                                "eleccion1":[
+                                    {
+                                          "nombre":"crema de calabacin",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"sopa de pasta",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"judias verdes",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"crema de patata",
+                                          "url":""
+                                      }
+                                    
+                                ],
+                                "eleccion2":[
+                                     {
+                                          "nombre":"escalopines braseados",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"merluza gallega",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"tortilla francesa",
+                                          "url":""
+                                      },
+                                      {
+                                          "nombre":"jamon york y queso",
+                                          "url":""
+                                      }
+                                ],
+                                "eleccion3":[
+                                      {
+                                            "nombre":"fruta",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"yogurt",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"helado",
+                                            "url":""
+                                        },
+                                        {
+                                            "nombre":"natillas",
+                                            "url":""
+                                        }
+                                  ]
+                                
+                            }
+                        ]
+                            
+                        }
+                    ]
+                    
+                }
+        ]
+        
+    }        
+]
