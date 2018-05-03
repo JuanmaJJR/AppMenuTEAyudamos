@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTaskListener;
 import com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecCenaFragment;
@@ -101,5 +102,18 @@ public class MainActivity extends AppCompatActivity {
         transition.show(selecCenaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
+    }
+}
+class MainActivityEvents implements HttpJsonAsyncTaskListener{
+    MainActivity mainActivity;
+
+
+    public MainActivityEvents(MainActivity mainActivity) {
+        this.mainActivity = mainActivity;
+    }
+
+    @Override
+    public void JsonOk(String s) {
+
     }
 }
