@@ -42,7 +42,9 @@
             android:layout_marginTop="40dp"
             android:src="@mipmap/ic_launcher"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="selecMenuDes"
+            />
 
         <ImageButton
             android:id="@+id/imgbtnComida"
@@ -52,7 +54,9 @@
             android:layout_marginTop="40dp"
             android:src="@mipmap/ic_launcher"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="selecMenuCom"
+            />
 
         <ImageButton
             android:id="@+id/imgbtnMerienda"
@@ -65,7 +69,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgbtnDesayuno"
-            app:layout_constraintVertical_bias="0.466" />
+            app:layout_constraintVertical_bias="0.466"
+            android:onClick="selecMenuMer"
+            />
 
         <ImageButton
             android:id="@+id/imgbtnCena"
@@ -78,7 +84,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgbtnComida"
-            app:layout_constraintVertical_bias="0.466" />
+            app:layout_constraintVertical_bias="0.466"
+            android:onClick="selecMenuCena"
+            />
     </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>

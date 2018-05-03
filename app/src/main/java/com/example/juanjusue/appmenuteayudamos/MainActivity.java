@@ -8,8 +8,12 @@ import android.view.View;
 
 import com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment;
+import com.example.juanjusue.appmenuteayudamos.Fragments.SelecCenaFragment;
+import com.example.juanjusue.appmenuteayudamos.Fragments.SelecComidaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecDiaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecHorarioFragment;
+import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMenuFragment;
+import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMeriendaFragment;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Usuarios;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     Integer IDCama;
     SelecDiaFragment selecDiaFragment;
     SelecHorarioFragment selecHorarioFragment;
+    SelecMenuFragment selecMenuFragment;
+    SelecComidaFragment selecComidaFragment;
+    SelecMeriendaFragment selecMeriendaFragment;
+    SelecCenaFragment selecCenaFragment;
 
 
     @Override
@@ -28,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
         loginFragment = (LoginFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
         primeraPantallaFragment = (PrimeraPantallaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentPrimeraPantalla);
         selecDiaFragment = (SelecDiaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDia);
+        selecMenuFragment = (SelecMenuFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDes);
+        selecComidaFragment = (SelecComidaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCom);
+        selecMeriendaFragment = (SelecMeriendaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionMer);
+        selecCenaFragment = (SelecCenaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCen);
         selecHorarioFragment = (SelecHorarioFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionHorario);
         user = new Usuarios();
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
@@ -66,10 +78,28 @@ public class MainActivity extends AppCompatActivity {
         transition.commit();
 
     }
-    public void selecMenu(View v){
+    public void selecMenuDes(View v){
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
-        transition.show(selecHorarioFragment);
-        transition.hide(selecDiaFragment);
+        transition.show(selecMenuFragment);
+        transition.hide(selecHorarioFragment);
+        transition.commit();
+    }
+    public void selecMenuCom(View v){
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecComidaFragment);
+        transition.hide(selecHorarioFragment);
+        transition.commit();
+    }
+    public void selecMenuMer(View v){
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecMeriendaFragment);
+        transition.hide(selecHorarioFragment);
+        transition.commit();
+    }
+    public void selecMenuCena(View v){
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecCenaFragment);
+        transition.hide(selecHorarioFragment);
         transition.commit();
     }
 }

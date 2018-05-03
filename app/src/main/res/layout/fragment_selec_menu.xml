@@ -41,14 +41,14 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/imageButton42"
+                        android:id="@+id/imageButtonDes1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:src="@mipmap/ic_launcher" />
 
                     <ImageButton
-                        android:id="@+id/imageButton41"
+                        android:id="@+id/imageButtonDes2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -62,21 +62,19 @@
                     android:gravity="center">
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/checkBoxDes1"
                         android:layout_width="78dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        android:textAlignment="viewStart"
                         tools:text="Leche con colacao" />
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/checkBoxDes2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textAlignment="viewStart"
                         tools:text="Yogurt" />
                 </LinearLayout>
 
@@ -87,21 +85,21 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/imageButton43"
+                        android:id="@+id/imageButtonDes3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:src="@mipmap/ic_launcher" />
 
                     <ImageButton
-                        android:id="@+id/imageButton40"
+                        android:id="@+id/imageButtonDes4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:src="@mipmap/ic_launcher" />
 
                     <ImageButton
-                        android:id="@+id/imageButton38"
+                        android:id="@+id/imageButtonDes5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -116,31 +114,28 @@
                     android:orientation="horizontal">
 
                     <CheckBox
-                        android:id="@+id/checkBox7"
+                        android:id="@+id/checkBoxDes3"
                         android:layout_width="78dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        android:textAlignment="viewStart"
                         tools:text="Pan" />
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/checkBoxDes4"
                         android:layout_width="78dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        android:textAlignment="viewStart"
                         tools:text="Galletas" />
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/checkBoxDes5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textAlignment="viewStart"
                         tools:text="Cereales" />
                 </LinearLayout>
 
@@ -151,14 +146,14 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/imageButton35"
+                        android:id="@+id/imageButtonDes6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:src="@mipmap/ic_launcher" />
 
                     <ImageButton
-                        android:id="@+id/imageButton34"
+                        android:id="@+id/imageButtonDes7"
                         android:layout_width="148dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -173,21 +168,19 @@
                     android:orientation="horizontal">
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/checkBoxDes6"
                         android:layout_width="78dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        android:textAlignment="viewStart"
                         tools:text="Mantequilla y mermelada" />
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/checkBoxDes7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textAlignment="viewStart"
                         tools:text="Aceite y tomate" />
                 </LinearLayout>
 
