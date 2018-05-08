@@ -127,49 +127,89 @@ class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClick
             }
 
         } catch (JSONException e) {
-            //CRASH REPORT EXAMEN
             e.printStackTrace();
         }
     }
 
     @Override
     public void onClick(View v) {
+        //Actualizamos el objeto menu, dependiendo del dia lo haremos de uno o de otro.
         if(v.getId()==R.id.btnFinalizar){
-            if(selecMenuFragment.cbEleccion11.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
+            if(main.menu.getDia().equals("hoy")){
+                if(selecMenuFragment.cbEleccion11.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion12.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion21.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion22.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion23.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion31.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
+                    main.menu.setMenuDia1(map);
+                }
+                if(selecMenuFragment.cbEleccion32.isChecked()){
+                    map = main.menu.getMenuDia1();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
+                    main.menu.setMenuDia1(map);
+                }
             }
-            if(selecMenuFragment.cbEleccion12.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
+            if(main.menu.getDia().equals("manana")){
+                if(selecMenuFragment.cbEleccion11.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion12.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion21.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion22.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion23.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion31.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
+                    main.menu.setMenuDia2(map);
+                }
+                if(selecMenuFragment.cbEleccion32.isChecked()){
+                    map = main.menu.getMenuDia2();
+                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
+                    main.menu.setMenuDia2(map);
+                }
             }
-            if(selecMenuFragment.cbEleccion21.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
-            }
-            if(selecMenuFragment.cbEleccion22.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
-            }
-            if(selecMenuFragment.cbEleccion23.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
-            }
-            if(selecMenuFragment.cbEleccion31.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
-            }
-            if(selecMenuFragment.cbEleccion32.isChecked()){
-                map = main.menu.getMenuDia1();
-                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                main.menu.setMenuDia1(map);
-            }
+
         }
     }
 }
