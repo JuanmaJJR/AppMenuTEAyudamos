@@ -84,6 +84,16 @@ public class MainActivity extends AppCompatActivity {
     }
     public void selecHorario(View v){
         IDCama = v.getId();
+        menu.setDia("Manana");
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecHorarioFragment);
+        transition.hide(selecDiaFragment);
+        transition.commit();
+
+    }
+    public void selecHorarioHoy(View v){
+        IDCama = v.getId();
+        menu.setDia("Hoy");
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecHorarioFragment);
         transition.hide(selecDiaFragment);

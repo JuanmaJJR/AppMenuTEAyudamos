@@ -19,6 +19,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -52,8 +55,9 @@ public class SelecMenuFragment extends Fragment {
 
         ///Asignaciones generales\\\
         View v = inflater.inflate(R.layout.fragment_selec_menu, container, false);
-        events = new SelecMenuFragmentEvents(this);
         MainActivity main = (MainActivity) getActivity();
+        events = new SelecMenuFragmentEvents(this,main);
+
         ///_______________________\\\
 
 
@@ -102,10 +106,14 @@ public class SelecMenuFragment extends Fragment {
 }
 class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClickListener {
     SelecMenuFragment selecMenuFragment;
+    MainActivity main;
+    HashMap<String,ArrayList<String>> map;
 
 
-    public SelecMenuFragmentEvents(SelecMenuFragment selecMenuFragment) {
+
+    public SelecMenuFragmentEvents(SelecMenuFragment selecMenuFragment, MainActivity mainActivity) {
         this.selecMenuFragment = selecMenuFragment;
+        this.main = main;
     }
 
     @Override
@@ -126,6 +134,42 @@ class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClick
 
     @Override
     public void onClick(View v) {
-
+        if(v.getId()==R.id.btnFinalizar){
+            if(selecMenuFragment.cbEleccion11.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion12.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion21.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion22.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion23.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion31.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion32.isChecked()){
+                map = main.menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                main.menu.setMenuDia1(map);
+            }
+        }
     }
 }
