@@ -183,9 +183,17 @@
                         android:layout_weight="1"
                         tools:text="Aceite y tomate" />
                 </LinearLayout>
-
+                <Button
+                    android:id="@+id/btnFinalizar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Finalizar" />
             </LinearLayout>
+
+
+
         </ScrollView>
 
     </android.support.constraint.ConstraintLayout>
+
 </FrameLayout>

@@ -15,6 +15,7 @@ import com.example.juanjusue.appmenuteayudamos.Fragments.SelecDiaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecHorarioFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMenuFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMeriendaFragment;
+import com.example.juanjusue.appmenuteayudamos.Objetos.Menu;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Usuarios;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,28 +29,38 @@ public class MainActivity extends AppCompatActivity {
     SelecComidaFragment selecComidaFragment;
     SelecMeriendaFragment selecMeriendaFragment;
     SelecCenaFragment selecCenaFragment;
+    public Menu menu;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loginFragment = (LoginFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
-        primeraPantallaFragment = (PrimeraPantallaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentPrimeraPantalla);
-        selecDiaFragment = (SelecDiaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDia);
-        selecMenuFragment = (SelecMenuFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDes);
-        selecComidaFragment = (SelecComidaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCom);
-        selecMeriendaFragment = (SelecMeriendaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionMer);
-        selecCenaFragment = (SelecCenaFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCen);
-        selecHorarioFragment = (SelecHorarioFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionHorario);
+
+        ///___________________________Asignaciones Fragments_____________________________________\\\
+        loginFragment = (LoginFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
+        primeraPantallaFragment = (PrimeraPantallaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentPrimeraPantalla);
+        selecDiaFragment = (SelecDiaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDia);
+        selecMenuFragment = (SelecMenuFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionDes);
+        selecComidaFragment = (SelecComidaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCom);
+        selecMeriendaFragment = (SelecMeriendaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionMer);
+        selecCenaFragment = (SelecCenaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCen);
+        selecHorarioFragment = (SelecHorarioFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionHorario);
+        ///______________________________________________________________________________________\\\
+
+        ///___________Objetos____________\\\
         user = new Usuarios();
+        menu = new Menu();
+        ///______________________________\\\
+
+        ///___________Transicciones iniciales_________________________\\\
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(loginFragment);
         transition.hide(primeraPantallaFragment);
         transition.hide(selecDiaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
-
+        ///__________________________________________________________\\\
     }
     public void comprobarUser(View v){
         if( user.esUser(loginFragment.getEtUser().getText().toString(),loginFragment.getEtPass().getText().toString())){
@@ -84,26 +95,31 @@ public class MainActivity extends AppCompatActivity {
         transition.show(selecMenuFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
+
     }
     public void selecMenuCom(View v){
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecComidaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
+
     }
     public void selecMenuMer(View v){
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecMeriendaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
+
     }
     public void selecMenuCena(View v){
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecCenaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
+
     }
 }
+
 class MainActivityEvents implements HttpJsonAsyncTaskListener{
     MainActivity mainActivity;
 

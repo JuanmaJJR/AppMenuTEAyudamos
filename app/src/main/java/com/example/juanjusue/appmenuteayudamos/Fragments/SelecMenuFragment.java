@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.ImageButton;
 
 import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTask;
 import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTaskListener;
@@ -22,6 +25,22 @@ import org.json.JSONObject;
 public class SelecMenuFragment extends Fragment {
 
     SelecMenuFragmentEvents events;
+    ImageButton imgEleccion11;
+    ImageButton imgEleccion12;
+    ImageButton imgEleccion21;
+    ImageButton imgEleccion22;
+    ImageButton imgEleccion23;
+    ImageButton imgEleccion31;
+    ImageButton imgEleccion32;
+    CheckBox cbEleccion11;
+    CheckBox cbEleccion12;
+    CheckBox cbEleccion21;
+    CheckBox cbEleccion22;
+    CheckBox cbEleccion23;
+    CheckBox cbEleccion31;
+    CheckBox cbEleccion32;
+    Button btnFin;
+
     public SelecMenuFragment() {
         // Required empty public constructor
     }
@@ -30,23 +49,58 @@ public class SelecMenuFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_selec_menu, container, false);
 
+        ///Asignaciones generales\\\
+        View v = inflater.inflate(R.layout.fragment_selec_menu, container, false);
         events = new SelecMenuFragmentEvents(this);
         MainActivity main = (MainActivity) getActivity();
+        ///_______________________\\\
+
+
+        ///_______ASIGNACION ELEMENTOS VISUALES_________________________________\\\
+
+        //CheckBox
+        cbEleccion11 = (CheckBox) getView().findViewById(R.id.checkBoxDes1);
+        cbEleccion12 = (CheckBox)getView().findViewById(R.id.checkBoxDes2);
+        cbEleccion21 = (CheckBox)getView().findViewById(R.id.checkBoxDes3);
+        cbEleccion22 = (CheckBox)getView().findViewById(R.id.checkBoxDes4);
+        cbEleccion23 = (CheckBox)getView().findViewById(R.id.checkBoxDes5);
+        cbEleccion31 = (CheckBox)getView().findViewById(R.id.checkBoxDes6);
+        cbEleccion32 = (CheckBox)getView().findViewById(R.id.checkBoxDes7);
+        //Imagenes
+        imgEleccion11 = (ImageButton)getView().findViewById(R.id.imageButtonDes1);
+        imgEleccion11.setOnClickListener(events);
+        imgEleccion12 = (ImageButton)getView().findViewById(R.id.imageButtonDes2);
+        imgEleccion12.setOnClickListener(events);
+        imgEleccion21 = (ImageButton)getView().findViewById(R.id.imageButtonDes3);
+        imgEleccion21.setOnClickListener(events);
+        imgEleccion22 = (ImageButton)getView().findViewById(R.id.imageButtonDes4);
+        imgEleccion22.setOnClickListener(events);
+        imgEleccion23 = (ImageButton)getView().findViewById(R.id.imageButtonDes5);
+        imgEleccion23.setOnClickListener(events);
+        imgEleccion31 = (ImageButton)getView().findViewById(R.id.imageButtonDes6);
+        imgEleccion31.setOnClickListener(events);
+        imgEleccion32 = (ImageButton)getView().findViewById(R.id.imageButtonDes7);
+        imgEleccion32.setOnClickListener(events);
+        //Botones
+        btnFin = (Button) getView().findViewById(R.id.btnFinalizar);
+
+        ///_______________________________________________________________________\\\
+
 
         ///_______DESCARGA DEL JSON_________\\\
         HttpJsonAsyncTask httpJsonAsyncTask1=new HttpJsonAsyncTask(main);
         httpJsonAsyncTask1.setListener(events);
         String url1 = String.format("http://10.0.2.2/pruebasJSON/leeJugadores.php");
         httpJsonAsyncTask1.execute(url1);
-        ///________DESCARGA DEL JSON_________\\\
+        ///___________________________________\\\
+
+
         return v;
     }
 
 }
-class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener {
+class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClickListener {
     SelecMenuFragment selecMenuFragment;
 
 
@@ -59,15 +113,19 @@ class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener {
         //AQUI TRATAMOS CON EL JSON
         try {
 
-            JSONObject object = new JSONObject(s); //Creamos un objeto JSON a partir de la cadena
+            JSONArray object = new JSONArray(s); //Creamos un objeto JSON a partir de la cadena
 
             for (int i = 0; i < object.length(); i++) {
-
             }
 
         } catch (JSONException e) {
             //CRASH REPORT EXAMEN
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
