@@ -15,6 +15,7 @@ import com.example.juanjusue.appmenuteayudamos.Fragments.SelecDiaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecHorarioFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMenuFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecMeriendaFragment;
+import com.example.juanjusue.appmenuteayudamos.Objetos.JSON;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Menu;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Usuarios;
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     SelecMeriendaFragment selecMeriendaFragment;
     SelecCenaFragment selecCenaFragment;
     public Menu menu;
+    public JSON json;
 
 
     @Override
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         ///___________Objetos____________\\\
         user = new Usuarios();
         menu = new Menu();
+        json = new JSON(this);
         ///______________________________\\\
 
         ///___________Transicciones iniciales_________________________\\\
