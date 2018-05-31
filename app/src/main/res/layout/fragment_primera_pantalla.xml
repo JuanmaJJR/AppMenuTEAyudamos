@@ -7,194 +7,494 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <android.support.constraint.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageButton
-            android:id="@+id/imageButton21"
-            android:layout_width="96dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton22"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton16"
-            android:onClick="pasarCama"
-            />
+            android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imageButton22"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton17"
-            android:onClick="pasarCama"
-            />
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <ImageButton
-            android:id="@+id/imageButton23"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton21"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton18"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama01"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama1"
+                    android:onClick="pasarCama"
+                    app:layout_constraintBottom_toTopOf="@+id/cama06"
+                    app:layout_constraintEnd_toStartOf="@+id/cama02"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton24"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton23"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton19"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama02"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama2"
+                    android:onClick="pasarCama"
+                    app:layout_constraintBottom_toTopOf="@+id/cama07"
+                    app:layout_constraintEnd_toStartOf="@+id/cama03"
+                    app:layout_constraintStart_toEndOf="@+id/cama01"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton25"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButton24"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton20"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama03"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama3"
+                    android:onClick="pasarCama"
+                    app:layout_constraintBottom_toTopOf="@+id/cama08"
+                    app:layout_constraintEnd_toStartOf="@+id/cama04"
+                    app:layout_constraintStart_toEndOf="@+id/cama02"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton16"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton17"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+                <ImageButton
+                    android:id="@+id/cama04"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama4"
+                    android:onClick="pasarCama"
+                    app:layout_constraintBottom_toTopOf="@+id/cama09"
+                    app:layout_constraintEnd_toStartOf="@+id/cama05"
+                    app:layout_constraintStart_toEndOf="@+id/cama03"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton17"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama05"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama5"
+                    android:onClick="pasarCama"
+                    app:layout_constraintBottom_toTopOf="@+id/cama10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama04"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton18"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton16"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton12"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama06"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama6"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama07"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cama01" />
 
-        <ImageButton
-            android:id="@+id/imageButton19"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton18"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton13"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama07"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama7"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama08"
+                    app:layout_constraintStart_toEndOf="@+id/cama06"
+                    app:layout_constraintTop_toBottomOf="@+id/cama02" />
 
-        <ImageButton
-            android:id="@+id/imageButton20"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButton19"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton14"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama08"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama8"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama09"
+                    app:layout_constraintStart_toEndOf="@+id/cama07"
+                    app:layout_constraintTop_toBottomOf="@+id/cama03" />
 
-        <ImageButton
-            android:id="@+id/imageButton10"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton11"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama09"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama9"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama10"
+                    app:layout_constraintStart_toEndOf="@+id/cama08"
+                    app:layout_constraintTop_toBottomOf="@+id/cama04" />
 
-        <ImageButton
-            android:id="@+id/imageButton12"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton10"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama10"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama09"
+                    app:layout_constraintTop_toBottomOf="@+id/cama05" />
 
-        <ImageButton
-            android:id="@+id/imageButton13"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toEndOf="@+id/imageButton12"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="pasarCama"
-            />
 
-        <ImageButton
-            android:id="@+id/imageButton14"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButton13"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="pasarCama"
-            />
+                <ImageButton
+                    android:id="@+id/cama11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama11"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama12"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cama06" />
 
-        <ImageButton
-            android:id="@+id/imageButton11"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:src="@mipmap/ic_launcher"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:onClick="pasarCama"
-            />
 
-    </android.support.constraint.ConstraintLayout>
+                <ImageButton
+                    android:id="@+id/cama12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama12"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama13"
+                    app:layout_constraintStart_toEndOf="@+id/cama11"
+                    app:layout_constraintTop_toBottomOf="@+id/cama07" />
+
+
+                <ImageButton
+                    android:id="@+id/cama13"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama13"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama14"
+                    app:layout_constraintStart_toEndOf="@+id/cama12"
+                    app:layout_constraintTop_toBottomOf="@+id/cama08" />
+
+                <ImageButton
+                    android:id="@+id/cama14"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama14"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama15"
+                    app:layout_constraintStart_toEndOf="@+id/cama13"
+                    app:layout_constraintTop_toBottomOf="@+id/cama09" />
+
+                <ImageButton
+                    android:id="@+id/cama15"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama15"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama14"
+                    app:layout_constraintTop_toBottomOf="@+id/cama10" />
+
+                <ImageButton
+                    android:id="@+id/cama16"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama16"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama17"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cama11" />
+
+
+                <ImageButton
+                    android:id="@+id/cama17"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama17"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama18"
+                    app:layout_constraintStart_toEndOf="@+id/cama16"
+                    app:layout_constraintTop_toBottomOf="@+id/cama12" />
+
+
+                <ImageButton
+                    android:id="@+id/cama18"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama19"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama19"
+                    app:layout_constraintStart_toEndOf="@+id/cama17"
+                    app:layout_constraintTop_toBottomOf="@+id/cama13" />
+
+                <ImageButton
+                    android:id="@+id/cama19"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama14"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama20"
+                    app:layout_constraintStart_toEndOf="@+id/cama18"
+                    app:layout_constraintTop_toBottomOf="@+id/cama14" />
+
+                <ImageButton
+                    android:id="@+id/cama20"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama20"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama19"
+                    app:layout_constraintTop_toBottomOf="@+id/cama15" />
+
+                <ImageButton
+                    android:id="@+id/cama21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama21"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama22"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cama16" />
+
+
+                <ImageButton
+                    android:id="@+id/cama22"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama22"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama23"
+                    app:layout_constraintStart_toEndOf="@+id/cama21"
+                    app:layout_constraintTop_toBottomOf="@+id/cama17" />
+
+
+                <ImageButton
+                    android:id="@+id/cama23"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama23"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama24"
+                    app:layout_constraintStart_toEndOf="@+id/cama22"
+                    app:layout_constraintTop_toBottomOf="@+id/cama18" />
+
+                <ImageButton
+                    android:id="@+id/cama24"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama24"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama25"
+                    app:layout_constraintStart_toEndOf="@+id/cama23"
+                    app:layout_constraintTop_toBottomOf="@+id/cama19" />
+
+                <ImageButton
+                    android:id="@+id/cama25"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama20"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama24"
+                    app:layout_constraintTop_toBottomOf="@+id/cama20" />
+
+                <ImageButton
+                    android:id="@+id/cama26"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama26"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama27"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cama21" />
+
+
+                <ImageButton
+                    android:id="@+id/cama27"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama27"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama28"
+                    app:layout_constraintStart_toEndOf="@+id/cama26"
+                    app:layout_constraintTop_toBottomOf="@+id/cama22" />
+
+
+                <ImageButton
+                    android:id="@+id/cama28"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama28"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama29"
+                    app:layout_constraintStart_toEndOf="@+id/cama27"
+                    app:layout_constraintTop_toBottomOf="@+id/cama23" />
+
+                <ImageButton
+                    android:id="@+id/cama29"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama29"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toStartOf="@+id/cama30"
+                    app:layout_constraintStart_toEndOf="@+id/cama28"
+                    app:layout_constraintTop_toBottomOf="@+id/cama24" />
+
+                <ImageButton
+                    android:id="@+id/cama30"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/cama30"
+                    android:onClick="pasarCama"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cama29"
+                    app:layout_constraintTop_toBottomOf="@+id/cama25" />
+
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

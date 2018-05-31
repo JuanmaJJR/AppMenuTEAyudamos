@@ -77,14 +77,7 @@ public class MainActivity extends AppCompatActivity {
             Log.v("LoginFragment","noo");
         }
     }
-    public void pasarCama(View v){
-        IDCama = v.getId();
-        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
-        transition.show(selecDiaFragment);
-        transition.hide(primeraPantallaFragment);
-        transition.commit();
 
-    }
     public void selecHorario(View v){
         IDCama = v.getId();
         menu.setDia("Manana");
@@ -128,6 +121,15 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecCenaFragment);
         transition.hide(selecHorarioFragment);
+        transition.commit();
+
+    }
+
+    public void pasarCama(View v) {
+        IDCama = v.getId();
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecDiaFragment);
+        transition.hide(primeraPantallaFragment);
         transition.commit();
 
     }

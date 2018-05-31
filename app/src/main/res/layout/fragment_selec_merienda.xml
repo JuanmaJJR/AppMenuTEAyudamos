@@ -28,7 +28,7 @@
                     android:textAlignment="center"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    tools:text="Desayuno" />
+                    tools:text="MERIENDA" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
