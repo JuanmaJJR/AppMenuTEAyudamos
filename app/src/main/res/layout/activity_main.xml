@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/fragmentSeleccionDia"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecDiaFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecDiaFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/fragmentPrimeraPantalla"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/fragmentLogin"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -51,7 +51,7 @@
 
     <fragment
         android:id="@+id/fragmentSeleccionHorario"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecHorarioFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecHorarioFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <fragment
         android:id="@+id/fragmentSeleccionDes"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecMenuFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecMenuFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <fragment
         android:id="@+id/fragmentSeleccionCom"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecComidaFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecComidaFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -90,7 +90,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <fragment
         android:id="@+id/fragmentSeleccionMer"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecMeriendaFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecMeriendaFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -103,7 +103,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <fragment
         android:id="@+id/fragmentSeleccionCen"
-        android:name="com.example.juanjusue.appmenuteayudamos.Fragments.SelecCenaFragment"
+        class="com.example.juanjusue.appmenuteayudamos.Fragments.SelecCenaFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"

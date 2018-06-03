@@ -62,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
         transition.hide(primeraPantallaFragment);
         transition.hide(selecDiaFragment);
         transition.hide(selecHorarioFragment);
+        transition.hide(selecMenuFragment);
+        transition.hide(selecComidaFragment);
+        transition.hide(selecMeriendaFragment);
+        transition.hide(selecCenaFragment);
+        transition.hide(selecHorarioFragment);
+
         transition.commit();
         ///__________________________________________________________\\\
     }

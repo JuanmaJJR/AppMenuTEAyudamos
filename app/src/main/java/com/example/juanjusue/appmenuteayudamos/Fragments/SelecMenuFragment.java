@@ -64,30 +64,30 @@ public class SelecMenuFragment extends Fragment {
         ///_______ASIGNACION ELEMENTOS VISUALES_________________________________\\\
 
         //CheckBox
-        cbEleccion11 = (CheckBox) getView().findViewById(R.id.checkBoxDes1);
-        cbEleccion12 = (CheckBox)getView().findViewById(R.id.checkBoxDes2);
-        cbEleccion21 = (CheckBox)getView().findViewById(R.id.checkBoxDes3);
-        cbEleccion22 = (CheckBox)getView().findViewById(R.id.checkBoxDes4);
-        cbEleccion23 = (CheckBox)getView().findViewById(R.id.checkBoxDes5);
-        cbEleccion31 = (CheckBox)getView().findViewById(R.id.checkBoxDes6);
-        cbEleccion32 = (CheckBox)getView().findViewById(R.id.checkBoxDes7);
+        cbEleccion11 = (CheckBox) v.findViewById(R.id.checkBoxDes1);
+        cbEleccion12 = (CheckBox)v.findViewById(R.id.checkBoxDes2);
+        cbEleccion21 = (CheckBox)v.findViewById(R.id.checkBoxDes3);
+        cbEleccion22 = (CheckBox)v.findViewById(R.id.checkBoxDes4);
+        cbEleccion23 = (CheckBox)v.findViewById(R.id.checkBoxDes5);
+        cbEleccion31 = (CheckBox)v.findViewById(R.id.checkBoxDes6);
+        cbEleccion32 = (CheckBox)v.findViewById(R.id.checkBoxDes7);
         //Imagenes
-        imgEleccion11 = (ImageButton)getView().findViewById(R.id.imageButtonDes1);
+        imgEleccion11 = (ImageButton)v.findViewById(R.id.imageButtonDes1);
         imgEleccion11.setOnClickListener(events);
-        imgEleccion12 = (ImageButton)getView().findViewById(R.id.imageButtonDes2);
+        imgEleccion12 = (ImageButton)v.findViewById(R.id.imageButtonDes2);
         imgEleccion12.setOnClickListener(events);
-        imgEleccion21 = (ImageButton)getView().findViewById(R.id.imageButtonDes3);
+        imgEleccion21 = (ImageButton)v.findViewById(R.id.imageButtonDes3);
         imgEleccion21.setOnClickListener(events);
-        imgEleccion22 = (ImageButton)getView().findViewById(R.id.imageButtonDes4);
+        imgEleccion22 = (ImageButton)v.findViewById(R.id.imageButtonDes4);
         imgEleccion22.setOnClickListener(events);
-        imgEleccion23 = (ImageButton)getView().findViewById(R.id.imageButtonDes5);
+        imgEleccion23 = (ImageButton)v.findViewById(R.id.imageButtonDes5);
         imgEleccion23.setOnClickListener(events);
-        imgEleccion31 = (ImageButton)getView().findViewById(R.id.imageButtonDes6);
+        imgEleccion31 = (ImageButton)v.findViewById(R.id.imageButtonDes6);
         imgEleccion31.setOnClickListener(events);
-        imgEleccion32 = (ImageButton)getView().findViewById(R.id.imageButtonDes7);
+        imgEleccion32 = (ImageButton)v.findViewById(R.id.imageButtonDes7);
         imgEleccion32.setOnClickListener(events);
         //Botones
-        btnFin = (Button) getView().findViewById(R.id.btnFinalizar);
+        btnFin = (Button) v.findViewById(R.id.btnFinalizar);
 
         ///_______________________________________________________________________\\\
 
@@ -119,16 +119,16 @@ class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClick
     @Override
     public void JsonOk(String s) {
         //AQUI TRATAMOS CON EL JSON
-        try {
+      //  try {
 
-            JSONArray object = new JSONArray(s); //Creamos un objeto JSON a partir de la cadena
+//            JSONArray object = new JSONArray(s); //Creamos un objeto JSON a partir de la cadena
 
-            for (int i = 0; i < object.length(); i++) {
-            }
+            //for (int i = 0; i < object.length(); i++) {
+            //}
 
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+      //  } catch (JSONException e) {
+       //     e.printStackTrace();
+    //    }
     }
 
     @Override
