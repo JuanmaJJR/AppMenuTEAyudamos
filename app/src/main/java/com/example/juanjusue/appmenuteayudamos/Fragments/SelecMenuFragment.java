@@ -10,14 +10,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
 
-import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTask;
 import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTaskListener;
 import com.example.juanjusue.appmenuteayudamos.MainActivity;
 import com.example.juanjusue.appmenuteayudamos.R;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -91,13 +86,6 @@ public class SelecMenuFragment extends Fragment {
 
         ///_______________________________________________________________________\\\
 
-
-        ///_______DESCARGA DEL JSON_________\\\
-        HttpJsonAsyncTask httpJsonAsyncTask1=new HttpJsonAsyncTask(main);
-        httpJsonAsyncTask1.setListener(events);
-        String url1 = String.format("http://10.0.2.2/pruebasJSON/leeJugadores.php");
-        httpJsonAsyncTask1.execute(url1);
-        ///___________________________________\\\
 
 
         return v;

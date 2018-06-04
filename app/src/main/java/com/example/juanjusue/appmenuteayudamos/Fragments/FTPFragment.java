@@ -1,0 +1,56 @@
+package com.example.juanjusue.appmenuteayudamos.Fragments;
+
+import android.util.Log;
+
+import com.example.juanjusue.appmenuteayudamos.Objetos.JSON;
+
+import org.apache.commons.net.ftp.FTP;
+import org.apache.commons.net.ftp.FTPClient;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+
+public class FTPFragment {
+    JSON json;
+
+    public Boolean downloadAndSaveFile(String server, int portNumber, String Usuario, String password, String filename, File localFile)
+            throws IOException {
+                FTPClient ftp = null;
+
+        try {
+            ftp = new FTPClient();
+            ftp.connect(server, portNumber);
+            Log.v("Connected. reply:", ftp.getReplyString());
+            ftp.login(Usuario, password);
+            Log.v("login","Logged In\"");
+            ftp.setFileType(FTP.BINARY_FILE_TYPE);
+            Log.v("download","Downloading");
+            ftp.enterLocalPassiveMode();
+
+            OutputStream outputStream = null;
+            boolean success = false;
+            try {
+                outputStream = new BufferedOutputStream(new FileOutputStream(
+                        localFile));
+                success = ftp.retrieveFile(filename, outputStream);
+            } finally {
+                if (outputStream != null) {
+                    outputStream.close();
+                }
+            }
+            json.setJSON(outputStream);
+            return success;
+        } finally {
+            if (ftp != null) {
+                ftp.logout();
+                ftp.disconnect();
+            }
+        }
+    }
+}
+
+
