@@ -1,6 +1,7 @@
 package com.example.juanjusue.appmenuteayudamos;
 
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -42,13 +43,17 @@ public class MainActivity extends AppCompatActivity {
     String Usuario="seg4313";
     String password="TrieglebViO1";
     String filename="menus.json";
-    File localFile = new File("************PONER RUTA*************");
+    File localFile = new File("/json.json");
+    Boolean resp;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
         ///___________Objetos____________\\\
         user = new Usuarios();
         menu = new Menu();
@@ -57,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         ///______________________________\\\
 
         try {
+            resp = ftpFragmetn.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile);
+            Log.v("FTPPP", String.valueOf(resp));
             if(ftpFragmetn.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile)){
                 ///___________________________Asignaciones Fragments_____________________________________\\\
                 loginFragment = (LoginFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
@@ -86,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         } catch (IOException e) {
+            Log.v("FTPPP", String.valueOf(e));
             e.printStackTrace();
         }
 

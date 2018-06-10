@@ -1,5 +1,6 @@
 package com.example.juanjusue.appmenuteayudamos.Fragments;
 
+import android.os.StrictMode;
 import android.util.Log;
 
 import com.example.juanjusue.appmenuteayudamos.Objetos.JSON;
@@ -16,6 +17,9 @@ import java.io.OutputStream;
 
 public class FTPFragment {
     JSON json;
+    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+
 
     public Boolean downloadAndSaveFile(String server, int portNumber, String Usuario, String password, String filename, File localFile)
             throws IOException {
@@ -46,8 +50,6 @@ public class FTPFragment {
             return success;
         } finally {
             if (ftp != null) {
-                ftp.logout();
-                ftp.disconnect();
             }
         }
     }
