@@ -19,7 +19,9 @@ public class FTPFragment {
     JSON json;
     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 
-
+    public FTPFragment(JSON json) {
+        this.json = json;
+    }
 
     public Boolean downloadAndSaveFile(String server, int portNumber, String Usuario, String password, String filename, File localFile)
             throws IOException {
@@ -35,7 +37,7 @@ public class FTPFragment {
             Log.v("download","Downloading");
             ftp.enterLocalPassiveMode();
 
-            OutputStream outputStream = null;
+            BufferedOutputStream  outputStream = null;
             boolean success = false;
             try {
                 outputStream = new BufferedOutputStream(new FileOutputStream(

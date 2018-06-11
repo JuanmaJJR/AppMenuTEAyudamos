@@ -1,9 +1,11 @@
 package com.example.juanjusue.appmenuteayudamos;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.util.JsonReader;
 import android.util.Log;
 import android.view.View;
 
@@ -21,8 +23,18 @@ import com.example.juanjusue.appmenuteayudamos.Objetos.JSON;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Menu;
 import com.example.juanjusue.appmenuteayudamos.Objetos.Usuarios;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
     FTPFragment ftpFragmetn;
@@ -43,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
     String Usuario="seg4313";
     String password="TrieglebViO1";
     String filename="menus.json";
-    File localFile = new File("/json.json");
     Boolean resp;
 
 
@@ -55,10 +66,12 @@ public class MainActivity extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         ///___________Objetos____________\\\
+        Context context = this;
+        File localFile = new File(context.getFilesDir(), filename);
         user = new Usuarios();
         menu = new Menu();
         json = new JSON(this);
-        ftpFragmetn = new FTPFragment();
+        ftpFragmetn = new FTPFragment(json);
         ///______________________________\\\
 
         try {
@@ -89,6 +102,9 @@ public class MainActivity extends AppCompatActivity {
                 transition.hide(selecHorarioFragment);
 
                 transition.commit();
+
+                Log.v("FTPFINAL",loadJSONFromAsset(this,localFile));
+
                 ///__________________________________________________________\\\
 
             }
@@ -98,6 +114,32 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    public String loadJSONFromAsset(Context context,File localFile) {
+        String json = null;
+        try {
+
+            InputStream is = new FileInputStream(localFile);
+
+            int size = is.available();
+
+            byte[] buffer = new byte[size];
+
+            is.read(buffer);
+
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            Log.v("MALJSON  ",ex.toString());
+            return null;
+        }
+        return json;
+
+    }
+
     public void comprobarUser(View v){
         if( user.esUser(loginFragment.getEtUser().getText().toString(),loginFragment.getEtPass().getText().toString())){
             Log.v("LoginFragment","siiii");

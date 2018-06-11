@@ -2,10 +2,12 @@ package com.example.juanjusue.appmenuteayudamos.Objetos;
 
 import com.example.juanjusue.appmenuteayudamos.MainActivity;
 
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 public class JSON {
-    OutputStream outputStream;
+    BufferedOutputStream outputStream;
     String sJSON;
     MainActivity main;
     JSONListener events;
@@ -14,7 +16,6 @@ public class JSON {
 
         this.main = main;
         events = new JSONListener(this);
-        sJSON = "no";
 
         ///_______DESCARGA DEL JSON_________\\\
         //HttpJsonAsyncTask httpJsonAsyncTask1=new HttpJsonAsyncTask(main);
@@ -24,10 +25,12 @@ public class JSON {
         ///___________________________________\\\
 
     }
-    public String getJSON(){
-        return this.sJSON;
+    public BufferedOutputStream getJSON(){
+
+        return this.outputStream;
     }
-    public void setJSON(OutputStream outputStream){
+    public void setJSON(BufferedOutputStream outputStream){
+
         this.outputStream = outputStream;
     }
 
