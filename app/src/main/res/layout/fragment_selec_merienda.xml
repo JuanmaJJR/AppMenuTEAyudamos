@@ -146,10 +146,11 @@
                         android:layout_weight="1"
                         tools:text="Cereales" />
                 </LinearLayout>
-
-
-
-             >
+                <Button
+                    android:id="@+id/btnFinalizarMer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Finalizar" />
 
             </LinearLayout>
         </ScrollView>
