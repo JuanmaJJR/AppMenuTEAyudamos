@@ -11,6 +11,7 @@ import android.view.View;
 
 import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTaskListener;
 import com.example.juanjusue.appmenuteayudamos.Fragments.FTPFragment;
+import com.example.juanjusue.appmenuteayudamos.Fragments.FormularioFinalFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.PrimeraPantallaFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.SelecCenaFragment;
@@ -37,7 +38,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
-    FTPFragment ftpFragmetn;
+    FTPFragment ftpFragment;
     LoginFragment loginFragment;
     PrimeraPantallaFragment primeraPantallaFragment;
     Usuarios user;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     SelecComidaFragment selecComidaFragment;
     SelecMeriendaFragment selecMeriendaFragment;
     SelecCenaFragment selecCenaFragment;
+    FormularioFinalFragment formularioFinalFragment;
     public Menu menu;
     public JSON json;
     String server="ftp.hospitaldefuenlabrada.org";
@@ -71,13 +73,13 @@ public class MainActivity extends AppCompatActivity {
         user = new Usuarios();
         menu = new Menu();
         json = new JSON(this);
-        ftpFragmetn = new FTPFragment(json);
+        ftpFragment = new FTPFragment(json);
         ///______________________________\\\
 
         try {
-            resp = ftpFragmetn.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile);
+            resp = ftpFragment.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile);
             Log.v("FTPPP", String.valueOf(resp));
-            if(ftpFragmetn.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile)){
+            if(ftpFragment.downloadAndSaveFile(server,portNumber, Usuario, password, filename, localFile)){
                 ///___________________________Asignaciones Fragments_____________________________________\\\
                 loginFragment = (LoginFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentLogin);
                 primeraPantallaFragment = (PrimeraPantallaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentPrimeraPantalla);
@@ -87,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 selecMeriendaFragment = (SelecMeriendaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionMer);
                 selecCenaFragment = (SelecCenaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCen);
                 selecHorarioFragment = (SelecHorarioFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionHorario);
+                formularioFinalFragment=(FormularioFinalFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentFormuFinal);
                 ///______________________________________________________________________________________\\\
 
                 ///___________Transicciones iniciales_________________________\\\
@@ -208,6 +211,15 @@ public class MainActivity extends AppCompatActivity {
         transition.commit();
 
     }
+
+    public void pasarFormuFinal(View v) {
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(formularioFinalFragment);
+        transition.hide(selecDiaFragment);
+        transition.commit();
+
+    }
+
 }
 
 class MainActivityEvents implements HttpJsonAsyncTaskListener{
