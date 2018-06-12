@@ -36,6 +36,7 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
     FTPFragment ftpFragment;
@@ -106,13 +107,21 @@ public class MainActivity extends AppCompatActivity {
 
                 transition.commit();
 
-                Log.v("FTPFINAL",loadJSONFromAsset(this,localFile));
+                //Log.v("FTPFINAL",loadJSONFromAsset(this,localFile));
+                try {
+                    String sJson = loadJSONFromAsset(this,localFile);
+                    JSONObject obj = new JSONObject(sJson);
+                } catch (Throwable t) {
+                    Log.v("My App", "Could not parse malformed JSON: \"" + json + "\"");
+                }
+
+
 
                 ///__________________________________________________________\\\
 
             }
         } catch (IOException e) {
-            Log.v("FTPPP", String.valueOf(e));
+            Log.v("errorJ", String.valueOf(e));
             e.printStackTrace();
         }
 
@@ -132,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
             is.close();
 
             json = new String(buffer, "UTF-8");
+            Log.v("sJson",json);
 
 
         } catch (IOException ex) {
