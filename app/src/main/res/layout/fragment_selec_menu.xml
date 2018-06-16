@@ -42,17 +42,17 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonDes1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_we
+                        android:background="@drawable/LECHE_CON_CACAO" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/YOGUR" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -68,6 +68,7 @@
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
+                        android:text="Leche con colacao"
                         tools:text="Leche con colacao" />
 
                     <CheckBox
@@ -75,6 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:text="Yogurt"
                         tools:text="Yogurt" />
                 </LinearLayout>
 
@@ -86,24 +88,24 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonDes3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/PAN_INDIVIDUAL" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/GALLETAS" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/CEREALES" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -120,6 +122,7 @@
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
+                        android:text="Pan"
                         tools:text="Pan" />
 
                     <CheckBox
@@ -129,6 +132,7 @@
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
+                        android:text="Galletas"
                         tools:text="Galletas" />
 
                     <CheckBox
@@ -136,6 +140,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:text="Cereales"
                         tools:text="Cereales" />
                 </LinearLayout>
 
@@ -147,17 +152,17 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonDes6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/MANTEQUILLA_Y_MERMELADA" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes7"
-                        android:layout_width="148dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/TOMATE_Y_ACEITE" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -174,6 +179,7 @@
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
+                        android:text="Mantequilla y mermelada"
                         tools:text="Mantequilla y mermelada" />
 
                     <CheckBox
@@ -181,6 +187,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:text="Aceite y tomate"
                         tools:text="Aceite y tomate" />
                 </LinearLayout>
                 <Button

@@ -20,6 +20,24 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="--------------HOY---------------"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvDesayuno"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
                 <TextView
                     android:id="@+id/txtvDesayuno"
                     android:layout_width="match_parent"
@@ -27,39 +45,22 @@
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
                     android:text="Desayuno"
                     android:textAlignment="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtDesayuno1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.015" />
-
-                <EditText
-                    android:id="@+id/etxtDesayuno3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="49dp"
-                    android:layout_marginBottom="132dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    app:layout_constraintBottom_toTopOf="@+id/txtvComida"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.093"
-                    app:layout_constraintStart_toStartOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <EditText
                     android:id="@+id/etxtDesayuno1"
                     android:layout_width="wrap_content"
-                    android:layout_height="53dp"
-                    android:layout_marginBottom="44dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
@@ -73,10 +74,10 @@
                     android:id="@+id/etxtDesayuno2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="44dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
@@ -86,18 +87,38 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno1" />
 
-                <TextView
-                    android:id="@+id/txtvComida"
-                    android:layout_width="0dp"
+                <EditText
+                    android:id="@+id/etxtDesayuno3"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvComida"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.093"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno2" />
+
+                <TextView
+                    android:id="@+id/txtvComida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
                     android:text="Comida"
                     android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtComida1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="488dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno3" />
 
                 <EditText
                     android:id="@+id/etxtComida1"
@@ -106,7 +127,7 @@
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="84dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
@@ -121,142 +142,457 @@
                     android:id="@+id/etxtComida2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtComida3"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.093"
+                    app:layout_constraintHorizontal_bias="0.091"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="690dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/etxtComida1" />
 
                 <EditText
                     android:id="@+id/etxtComida3"
                     android:layout_width="wrap_content"
-                    android:layout_height="44dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvMerienda"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintHorizontal_bias="0.091"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/etxtComida2" />
 
                 <TextView
-                    android:id="@+id/txtvCena"
-                    android:layout_width="0dp"
+                    android:id="@+id/txtvMerienda"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:text="cena"
+                    android:layout_marginTop="8dp"
+                    android:text="merienda"
                     android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtMerienda1"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="1324dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/etxtComida3" />
 
                 <EditText
                     android:id="@+id/etxtMerienda1"
                     android:layout_width="wrap_content"
-                    android:layout_height="49dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtMerienda2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintHorizontal_bias="0.091"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="1074dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtvMerienda" />
+
+                <EditText
+                    android:id="@+id/etxtMerienda2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvCena"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtMerienda1"
+                    tools:ignore="DuplicateIds,NotSibling" />
+
+                <TextView
+                    android:id="@+id/txtvCena"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="cena"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtMerienda2" />
 
                 <EditText
                     android:id="@+id/etxtCena1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="1429dp" />
-
-                <EditText
-                    android:id="@+id/etxtCena3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="1667dp" />
-
-                <TextView
-                    android:id="@+id/txtvMerienda"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="36dp"
-                    android:text="merienda"
-                    android:textAlignment="center"
-                    app:layout_constraintBottom_toTopOf="@+id/etxtMerienda1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.498"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/etxtComida3" />
-
-                <EditText
-                    android:id="@+id/etxtMerienda2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="49dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="52dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintHorizontal_bias="0.09"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/etxtMerienda1"
-                    tools:ignore="DuplicateIds,NotSibling" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtvCena" />
 
                 <EditText
                     android:id="@+id/etxtCena2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena3"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintHorizontal_bias="0.09"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:ignore="DuplicateIds,MissingConstraints"
-                    tools:layout_editor_absoluteY="1551dp" />
+                    app:layout_constraintTop_toBottomOf="@+id/etxtCena1"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/etxtCena3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/textManana"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtCena2" />
+
+                <TextView
+                    android:id="@+id/textManana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="--------------MAÑANA---------------"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvDesayunoMa"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtCena3" />
+
+
+                <TextView
+                    android:id="@+id/txtvDesayunoMa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="Desayuno"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtDesayuno1Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textManana" />
+
+
+                <EditText
+                    android:id="@+id/etxtDesayuno1Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtDesayuno2Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtvDesayunoMa" />
+
+
+                <EditText
+                    android:id="@+id/etxtDesayuno2Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtDesayuno3Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.094"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno1Ma" />
+
+                <EditText
+                    android:id="@+id/etxtDesayuno3Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvComidaMa"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.094"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno2Ma" />
+
+                <TextView
+                    android:id="@+id/txtvComidaMa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:text="Comida"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtComida1Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtDesayuno3Ma" />
+
+                <EditText
+                    android:id="@+id/etxtComida1Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtComida2Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtvComidaMa" />
+
+                <EditText
+                    android:id="@+id/etxtComida2Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtComida3Ma"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtComida1Ma" />
+
+                <EditText
+                    android:id="@+id/etxtComida3Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvMeriendaMa"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtComida2Ma"
+                     />
+
+                <TextView
+                    android:id="@+id/txtvMeriendaMa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:ems="10"
+                    android:text="Merienda"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtMerienda1Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtComida3Ma" />
+
+                <EditText
+                    android:id="@+id/etxtMerienda1Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtvMeriendaMa"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtMerienda2Ma"
+                    />
+
+
+                <EditText
+                    android:id="@+id/etxtMerienda2Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintBottom_toTopOf="@+id/txtvCenaMa"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtMerienda1Ma" />
+
+                <TextView
+                    android:id="@+id/txtvCenaMa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:ems="10"
+                    android:text="Cena"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena1Ma"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtMerienda2Ma" />
+
+                <EditText
+                    android:id="@+id/etxtCena1Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtvCenaMa"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena2Ma"  />
+
+                <EditText
+                    android:id="@+id/etxtCena2Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtCena1Ma"
+                    app:layout_constraintBottom_toTopOf="@+id/etxtCena3Ma" />
+
+                <EditText
+                    android:id="@+id/etxtCena3Ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etxtCena2Ma"
+                    app:layout_constraintBottom_toTopOf="@+id/btnValidar"/>
 
                 <Button
                     android:id="@+id/btnValidar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
                     android:text="Validar"
+                    android:onClick="pasarFormuFinal"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="1780dp" />
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="3040dp" />
+
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="20dp" />
+
 
             </android.support.constraint.ConstraintLayout>
 

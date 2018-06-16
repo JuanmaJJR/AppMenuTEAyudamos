@@ -38,29 +38,31 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonCom1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/PURRUSALDA" />
+
                     <ImageButton
                         android:id="@+id/imageButtonCom2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/LENTEJAS" />
+
                     <ImageButton
                         android:id="@+id/imageButtonCom3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/CREMA_DE_LEGUMBRES" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/SOPA_DE_PASTA" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -71,31 +73,37 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxCom1"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Leche con colacao" />
+                        android:text="Purruslada"
+                        tools:text="Purruslada" />
 
                     <CheckBox
                         android:id="@+id/checkBoxCom2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Yogurt" />
+                        android:text="Lentejas"
+                        tools:text="Lentejas" />
+
                     <CheckBox
                         android:id="@+id/checkBoxCom3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Yogurt" />
+                        android:text="Pure de legumbres"
+                        tools:text="Pure de legumbres" />
+
                     <CheckBox
                         android:id="@+id/checkBoxCom4"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Yogurt" />
+                        android:text="Sopa de pasta"
+                        tools:text="Sopa de pasta" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -106,30 +114,31 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonCom5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/POLLO_AL_AJILLO" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/PESCADO_AL_AJILLO" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/LOMO_EN_SU_JUGO" />
+
                     <ImageButton
                         android:id="@+id/imageButtonCom8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/JAMON_YORK_Y_QUESO_FRESCO" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -141,34 +150,39 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxCom5"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Pan" />
+                        android:text="Pollo al ajillo"
+                        tools:text="Pollo al ajillo" />
 
                     <CheckBox
                         android:id="@+id/checkBoxCom6"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Galletas" />
+                        android:text="Pescado al horno"
+                        tools:text="Pescado al horno" />
 
                     <CheckBox
                         android:id="@+id/checkBoxCom7"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Cereales" />
+                        android:text="Lomo en su jugo"
+                        tools:text="Lomo en su jugo" />
+
                     <CheckBox
                         android:id="@+id/checkBoxCom8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Cereales" />
+                        android:text="jamon york y queso"
+                        tools:text="jamon york y queso" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -179,29 +193,31 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonCom9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/FRUTA" />
+
                     <ImageButton
                         android:id="@+id/imageButtonCom10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/YOGUR" />
+
                     <ImageButton
                         android:id="@+id/imageButtonCom11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/GELATINA" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom12"
-                        android:layout_width="148dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/HELADO" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -213,35 +229,41 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxCom9"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Mantequilla y mermelada" />
+                        android:text="Fruta"
+                        tools:text="Fruta" />
+
                     <CheckBox
                         android:id="@+id/checkBoxCom10"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Mantequilla y mermelada" />
+                        android:text="Yogurt"
+                        tools:text="Yogurt" />
+
                     <CheckBox
                         android:id="@+id/checkBoxCom11"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Mantequilla y mermelada" />
+                        android:text="Gelatina"
+                        tools:text="Gelatina" />
 
                     <CheckBox
                         android:id="@+id/checkBoxCom12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Aceite y tomate" />
+                        android:text="Helado"
+                        tools:text="Helado" />
                 </LinearLayout>
                 <Button
                     android:id="@+id/btnFinalizarCom"

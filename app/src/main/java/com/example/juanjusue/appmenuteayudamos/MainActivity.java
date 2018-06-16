@@ -224,6 +224,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void pasarFormuFinal(View v) {
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+
+
         transition.show(formularioFinalFragment);
         transition.hide(selecDiaFragment);
         transition.commit();
