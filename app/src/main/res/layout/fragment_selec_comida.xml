@@ -41,28 +41,28 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/PURRUSALDA" />
+                        android:background="@drawable/purrusalda" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom2"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/LENTEJAS" />
+                        android:background="@drawable/lentejas" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom3"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/CREMA_DE_LEGUMBRES" />
+                        android:background="@drawable/crema_legumbres" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom4"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/SOPA_DE_PASTA" />
+                        android:background="@drawable/sopa_pasta" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -117,28 +117,28 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/POLLO_AL_AJILLO" />
+                        android:background="@drawable/pollo_ajillo" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom6"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/PESCADO_AL_AJILLO" />
+                        android:background="@drawable/pescado_al_ajillo" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom7"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/LOMO_EN_SU_JUGO" />
+                        android:background="@drawable/lomo_jugo" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom8"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/JAMON_YORK_Y_QUESO_FRESCO" />
+                        android:background="@drawable/jamon_york_queso" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -196,28 +196,28 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/FRUTA" />
+                        android:background="@drawable/fruta" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom10"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/YOGUR" />
+                        android:background="@drawable/yogur" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom11"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/GELATINA" />
+                        android:background="@drawable/gelatina" />
 
                     <ImageButton
                         android:id="@+id/imageButtonCom12"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_weight="1"
-                        android:background="@drawable/HELADO" />
+                        android:background="@drawable/helado" />
                 </LinearLayout>
 
                 <LinearLayout

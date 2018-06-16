@@ -42,17 +42,17 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonDes1"
-                        android:layout_width="300dp"
-                        android:layout_height="300dp"
-                        android:layout_we
-                        android:background="@drawable/LECHE_CON_CACAO" />
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/leche_con_cacao" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes2"
-                        android:layout_width="300dp"
-                        android:layout_height="300dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:background="@drawable/YOGUR" />
+                        android:background="@drawable/yogur" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -91,21 +91,21 @@
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:background="@drawable/PAN_INDIVIDUAL" />
+                        android:background="@drawable/pan_individual" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes4"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:background="@drawable/GALLETAS" />
+                        android:background="@drawable/galletas" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes5"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"
-                        android:background="@drawable/CEREALES" />
+                        android:background="@drawable/cereales" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -155,14 +155,14 @@
                         android:layout_width="300dp"
                         android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:background="@drawable/MANTEQUILLA_Y_MERMELADA" />
+                        android:background="@drawable/mantequilla_y_mermelada" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes7"
                         android:layout_width="300dp"
                         android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:background="@drawable/TOMATE_Y_ACEITE" />
+                        android:background="@drawable/tomate_aceite" />
                 </LinearLayout>
 
                 <LinearLayout
