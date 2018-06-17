@@ -180,6 +180,12 @@ public class MainActivity extends AppCompatActivity {
         transition.commit();
 
     }
+    public void goToDia(View v){
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecDiaFragment);
+        transition.hide(selecHorarioFragment);
+        transition.commit();
+    }
     public void selecHorarioHoy(View v){
         IDCama = v.getId();
         menu.setDia("Hoy");
@@ -211,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void selecMenuCena(View v){
+
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecCenaFragment);
         transition.hide(selecHorarioFragment);
@@ -667,32 +674,32 @@ public class MainActivity extends AppCompatActivity {
         formularioFinalFragment.etxtDesayuno2.setText(menu.getMenuDia1().get("Desayuno").get(1));
         formularioFinalFragment.etxtDesayuno3.setText(menu.getMenuDia1().get("Desayuno").get(2));
 
-        formularioFinalFragment.etxtComida1.setText(menu.getMenuDia1().get("comida").get(0));
-        formularioFinalFragment.etxtComida2.setText(menu.getMenuDia1().get("comida").get(1));
-        formularioFinalFragment.etxtComida3.setText(menu.getMenuDia1().get("comida").get(2));
+        formularioFinalFragment.etxtComida1.setText(menu.getMenuDia1().get("Comida").get(0));
+        formularioFinalFragment.etxtComida2.setText(menu.getMenuDia1().get("Comida").get(1));
+        formularioFinalFragment.etxtComida3.setText(menu.getMenuDia1().get("Comida").get(2));
 
-        formularioFinalFragment.etxtMerienda1.setText(menu.getMenuDia1().get("merienda").get(0));
-        formularioFinalFragment.etxtMerienda2.setText(menu.getMenuDia1().get("merienda").get(1));
+        formularioFinalFragment.etxtMerienda1.setText(menu.getMenuDia1().get("Merienda").get(0));
+        formularioFinalFragment.etxtMerienda2.setText(menu.getMenuDia1().get("Merienda").get(1));
 
-        formularioFinalFragment.etxtCena1.setText(menu.getMenuDia1().get("cena").get(0));
-        formularioFinalFragment.etxtCena2.setText(menu.getMenuDia1().get("cena").get(1));
-        formularioFinalFragment.etxtCena3.setText(menu.getMenuDia1().get("cena").get(2));
+        formularioFinalFragment.etxtCena1.setText(menu.getMenuDia1().get("Cena").get(0));
+        formularioFinalFragment.etxtCena2.setText(menu.getMenuDia1().get("Cena").get(1));
+        formularioFinalFragment.etxtCena3.setText(menu.getMenuDia1().get("Cena").get(2));
 
 
         formularioFinalFragment.etxtDesayuno1Ma.setText(menu.getMenuDia2().get("Desayuno").get(0));
         formularioFinalFragment.etxtDesayuno2Ma.setText(menu.getMenuDia2().get("Desayuno").get(1));
         formularioFinalFragment.etxtDesayuno3Ma.setText(menu.getMenuDia2().get("Desayuno").get(2));
 
-        formularioFinalFragment.etxtComida1Ma.setText(menu.getMenuDia2().get("comida").get(0));
-        formularioFinalFragment.etxtComida2Ma.setText(menu.getMenuDia2().get("comida").get(1));
-        formularioFinalFragment.etxtComida3Ma.setText(menu.getMenuDia2().get("comida").get(2));
+        formularioFinalFragment.etxtComida1Ma.setText(menu.getMenuDia2().get("Comida").get(0));
+        formularioFinalFragment.etxtComida2Ma.setText(menu.getMenuDia2().get("Comida").get(1));
+        formularioFinalFragment.etxtComida3Ma.setText(menu.getMenuDia2().get("Comida").get(2));
 
-        formularioFinalFragment.etxtMerienda1Ma.setText(menu.getMenuDia2().get("merienda").get(0));
-        formularioFinalFragment.etxtMerienda2Ma.setText(menu.getMenuDia2().get("merienda").get(1));
+        formularioFinalFragment.etxtMerienda1Ma.setText(menu.getMenuDia2().get("Merienda").get(0));
+        formularioFinalFragment.etxtMerienda2Ma.setText(menu.getMenuDia2().get("Merienda").get(1));
 
-        formularioFinalFragment.etxtCena1Ma.setText(menu.getMenuDia2().get("cena").get(0));
-        formularioFinalFragment.etxtCena2Ma.setText(menu.getMenuDia2().get("cena").get(1));
-        formularioFinalFragment.etxtCena3Ma.setText(menu.getMenuDia2().get("cena").get(2));
+        formularioFinalFragment.etxtCena1Ma.setText(menu.getMenuDia2().get("Cena").get(0));
+        formularioFinalFragment.etxtCena2Ma.setText(menu.getMenuDia2().get("Cena").get(1));
+        formularioFinalFragment.etxtCena3Ma.setText(menu.getMenuDia2().get("Cena").get(2));
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(formularioFinalFragment);
         transition.hide(selecDiaFragment);

@@ -53,36 +53,36 @@ public class PHPost {
     public PHPost(Menu menu) {
         this.menu = menu;
 
-        DesayHoy1 = menu.getMenuDia1().get("desayuno").get(0);
-        DesayHoy2 = menu.getMenuDia1().get("desayuno").get(1);
-        DesayHoy3 = menu.getMenuDia1().get("desayuno").get(2);
+        DesayHoy1 = menu.getMenuDia1().get("Desayuno").get(0);
+        DesayHoy2 = menu.getMenuDia1().get("Desayuno").get(1);
+        DesayHoy3 = menu.getMenuDia1().get("Desayuno").get(2);
 
-        ComHoy1 = menu.getMenuDia1().get("comida").get(0);
-        ComHoy2 = menu.getMenuDia1().get("comida").get(1);
-        ComHoy3 = menu.getMenuDia1().get("comida").get(2);
+        ComHoy1 = menu.getMenuDia1().get("Comida").get(0);
+        ComHoy2 = menu.getMenuDia1().get("Comida").get(1);
+        ComHoy3 = menu.getMenuDia1().get("Comida").get(2);
 
-        MerHoy1 = menu.getMenuDia1().get("merienda").get(0);
-        MerHoy2 = menu.getMenuDia1().get("merienda").get(1);
+        MerHoy1 = menu.getMenuDia1().get("Merienda").get(0);
+        MerHoy2 = menu.getMenuDia1().get("Merienda").get(1);
 
-        CenaHoy1 = menu.getMenuDia1().get("cena").get(0);
-        CenaHoy2 = menu.getMenuDia1().get("cena").get(1);
-        CenaHoy3 = menu.getMenuDia1().get("cena").get(2);
+        CenaHoy1 = menu.getMenuDia1().get("Cena").get(0);
+        CenaHoy2 = menu.getMenuDia1().get("Cena").get(1);
+        CenaHoy3 = menu.getMenuDia1().get("Cena").get(2);
 
 
-        DesayMan1 = menu.getMenuDia2().get("desayuno").get(0);
-        DesayMan2 = menu.getMenuDia2().get("desayuno").get(1);
-        DesayMan3 = menu.getMenuDia2().get("desayuno").get(2);
+        DesayMan1 = menu.getMenuDia2().get("Desayuno").get(0);
+        DesayMan2 = menu.getMenuDia2().get("Desayuno").get(1);
+        DesayMan3 = menu.getMenuDia2().get("Desayuno").get(2);
 
-        ComMan1 = menu.getMenuDia2().get("comida").get(0);
-        ComMan2 = menu.getMenuDia2().get("comida").get(1);
-        ComMan3 = menu.getMenuDia2().get("comida").get(2);
+        ComMan1 = menu.getMenuDia2().get("Comida").get(0);
+        ComMan2 = menu.getMenuDia2().get("Comida").get(1);
+        ComMan3 = menu.getMenuDia2().get("Comida").get(2);
 
-        MerMan1 = menu.getMenuDia2().get("merienda").get(0);
-        MerMan2 = menu.getMenuDia2().get("merienda").get(1);
+        MerMan1 = menu.getMenuDia2().get("Merienda").get(0);
+        MerMan2 = menu.getMenuDia2().get("Merienda").get(1);
 
-        CenaMan1 = menu.getMenuDia2().get("cena").get(0);
-        CenaMan2 = menu.getMenuDia2().get("cena").get(1);
-        CenaMan3 = menu.getMenuDia2().get("cena").get(2);
+        CenaMan1 = menu.getMenuDia2().get("Cena").get(0);
+        CenaMan2 = menu.getMenuDia2().get("Cena").get(1);
+        CenaMan3 = menu.getMenuDia2().get("Cena").get(2);
 
     }
 

@@ -11,7 +11,9 @@
         <ScrollView
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:clipToPadding="true"
+            android:fillViewport="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,8 +30,8 @@
                     android:textAlignment="center"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    tools:text="COMIDA"
-                 />
+                    tools:text="COMIDA" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -64,12 +66,13 @@
                         android:layout_weight="1"
                         android:background="@drawable/sopa_pasta" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
                     <CheckBox
                         android:id="@+id/checkBoxCom1"
@@ -266,13 +269,13 @@
                         android:text="Helado"
                         tools:text="Helado" />
                 </LinearLayout>
+
                 <Button
                     android:id="@+id/btnFinalizarCom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Finalizar"
                     android:onClick="compCom"
-                    />
+                    android:text="Finalizar" />
 
             </LinearLayout>
         </ScrollView>
