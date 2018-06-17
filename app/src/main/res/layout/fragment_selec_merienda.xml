@@ -38,17 +38,17 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonMer1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/leche_con_cacao" />
 
                     <ImageButton
                         android:id="@+id/imageButtonMer2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/yogur" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -60,18 +60,20 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxMer1"
-                        android:layout_width="78dp"
+                        android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
+                        android:text="Leche con colacao"
                         tools:text="Leche con colacao" />
 
                     <CheckBox
                         android:id="@+id/checkBoxMer2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:text="Yogurt"
                         tools:text="Yogurt" />
                 </LinearLayout>
 
@@ -83,30 +85,31 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonMer3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/zumo_individual" />
 
                     <ImageButton
                         android:id="@+id/imageButtonMer4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/galletas" />
 
                     <ImageButton
                         android:id="@+id/imageButtonMer5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/fruta" />
+
                     <ImageButton
                         android:id="@+id/imageButtonMer6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        android:src="@mipmap/ic_launcher" />
+                        android:background="@drawable/compota" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -118,16 +121,17 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxMer3"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
                         android:duplicateParentState="false"
-                        tools:text="Pan" />
+                        android:text="Zumo"
+                        tools:text="Zumo" />
 
                     <CheckBox
                         android:id="@+id/checkBoxMer4"
-                        android:layout_width="78dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:checked="false"
@@ -136,16 +140,17 @@
 
                     <CheckBox
                         android:id="@+id/checkBoxMer5"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Cereales" />
+                        tools:text="Fruta" />
+
                     <CheckBox
                         android:id="@+id/checkBoxMer6"
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        tools:text="Cereales" />
+                        tools:text="Compota" />
                 </LinearLayout>
                 <Button
                     android:id="@+id/btnFinalizarMer"
