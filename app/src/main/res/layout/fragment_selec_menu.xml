@@ -93,6 +93,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/pan_individual" />
 
+
                     <ImageButton
                         android:id="@+id/imageButtonDes4"
                         android:layout_width="200dp"
@@ -152,15 +153,15 @@
 
                     <ImageButton
                         android:id="@+id/imageButtonDes6"
-                        android:layout_width="300dp"
-                        android:layout_height="300dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
                         android:background="@drawable/mantequilla_y_mermelada" />
 
                     <ImageButton
                         android:id="@+id/imageButtonDes7"
-                        android:layout_width="300dp"
-                        android:layout_height="300dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
                         android:layout_weight="1"
                         android:background="@drawable/tomate_aceite" />
                 </LinearLayout>
