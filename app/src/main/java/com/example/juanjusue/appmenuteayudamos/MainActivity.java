@@ -174,6 +174,49 @@ public class MainActivity extends AppCompatActivity {
     public void selecHorario(View v){
         IDCama = v.getId();
         menu.setDia("Manana");
+
+        selecMenuFragment.cbEleccion11.setChecked(false);
+        selecMenuFragment.cbEleccion12.setChecked(false);
+        selecMenuFragment.cbEleccion21.setChecked(false);
+        selecMenuFragment.cbEleccion22.setChecked(false);
+        selecMenuFragment.cbEleccion23.setChecked(false);
+        selecMenuFragment.cbEleccion31.setChecked(false);
+        selecMenuFragment.cbEleccion32.setChecked(false);
+
+        selecComidaFragment.cbEleccion11.setChecked(false);
+        selecComidaFragment.cbEleccion12.setChecked(false);
+        selecComidaFragment.cbEleccion13.setChecked(false);
+        selecComidaFragment.cbEleccion14.setChecked(false);
+        selecComidaFragment.cbEleccion21.setChecked(false);
+        selecComidaFragment.cbEleccion22.setChecked(false);
+        selecComidaFragment.cbEleccion23.setChecked(false);
+        selecComidaFragment.cbEleccion24.setChecked(false);
+        selecComidaFragment.cbEleccion31.setChecked(false);
+        selecComidaFragment.cbEleccion32.setChecked(false);
+        selecComidaFragment.cbEleccion33.setChecked(false);
+        selecComidaFragment.cbEleccion34.setChecked(false);
+
+        selecMeriendaFragment.cbEleccion11.setChecked(false);
+        selecMeriendaFragment.cbEleccion12.setChecked(false);
+        selecMeriendaFragment.cbEleccion21.setChecked(false);
+        selecMeriendaFragment.cbEleccion22.setChecked(false);
+        selecMeriendaFragment.cbEleccion23.setChecked(false);
+        selecMeriendaFragment.cbEleccion24.setChecked(false);
+
+        selecCenaFragment.cbEleccion11.setChecked(false);
+        selecCenaFragment.cbEleccion12.setChecked(false);
+        selecCenaFragment.cbEleccion13.setChecked(false);
+        selecCenaFragment.cbEleccion14.setChecked(false);
+        selecCenaFragment.cbEleccion21.setChecked(false);
+        selecCenaFragment.cbEleccion22.setChecked(false);
+        selecCenaFragment.cbEleccion23.setChecked(false);
+        selecCenaFragment.cbEleccion24.setChecked(false);
+        selecCenaFragment.cbEleccion31.setChecked(false);
+        selecCenaFragment.cbEleccion32.setChecked(false);
+        selecCenaFragment.cbEleccion33.setChecked(false);
+        selecCenaFragment.cbEleccion34.setChecked(false);
+
+
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecHorarioFragment);
         transition.hide(selecDiaFragment);
@@ -187,8 +230,52 @@ public class MainActivity extends AppCompatActivity {
         transition.commit();
     }
     public void selecHorarioHoy(View v){
+
         IDCama = v.getId();
+
         menu.setDia("Hoy");
+
+        selecMenuFragment.cbEleccion11.setChecked(false);
+        selecMenuFragment.cbEleccion12.setChecked(false);
+        selecMenuFragment.cbEleccion21.setChecked(false);
+        selecMenuFragment.cbEleccion22.setChecked(false);
+        selecMenuFragment.cbEleccion23.setChecked(false);
+        selecMenuFragment.cbEleccion31.setChecked(false);
+        selecMenuFragment.cbEleccion32.setChecked(false);
+
+        selecComidaFragment.cbEleccion11.setChecked(false);
+        selecComidaFragment.cbEleccion12.setChecked(false);
+        selecComidaFragment.cbEleccion13.setChecked(false);
+        selecComidaFragment.cbEleccion14.setChecked(false);
+        selecComidaFragment.cbEleccion21.setChecked(false);
+        selecComidaFragment.cbEleccion22.setChecked(false);
+        selecComidaFragment.cbEleccion23.setChecked(false);
+        selecComidaFragment.cbEleccion24.setChecked(false);
+        selecComidaFragment.cbEleccion31.setChecked(false);
+        selecComidaFragment.cbEleccion32.setChecked(false);
+        selecComidaFragment.cbEleccion33.setChecked(false);
+        selecComidaFragment.cbEleccion34.setChecked(false);
+
+        selecMeriendaFragment.cbEleccion11.setChecked(false);
+        selecMeriendaFragment.cbEleccion12.setChecked(false);
+        selecMeriendaFragment.cbEleccion21.setChecked(false);
+        selecMeriendaFragment.cbEleccion22.setChecked(false);
+        selecMeriendaFragment.cbEleccion23.setChecked(false);
+        selecMeriendaFragment.cbEleccion24.setChecked(false);
+
+        selecCenaFragment.cbEleccion11.setChecked(false);
+        selecCenaFragment.cbEleccion12.setChecked(false);
+        selecCenaFragment.cbEleccion13.setChecked(false);
+        selecCenaFragment.cbEleccion14.setChecked(false);
+        selecCenaFragment.cbEleccion21.setChecked(false);
+        selecCenaFragment.cbEleccion22.setChecked(false);
+        selecCenaFragment.cbEleccion23.setChecked(false);
+        selecCenaFragment.cbEleccion24.setChecked(false);
+        selecCenaFragment.cbEleccion31.setChecked(false);
+        selecCenaFragment.cbEleccion32.setChecked(false);
+        selecCenaFragment.cbEleccion33.setChecked(false);
+        selecCenaFragment.cbEleccion34.setChecked(false);
+
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(selecHorarioFragment);
         transition.hide(selecDiaFragment);
@@ -222,7 +309,6 @@ public class MainActivity extends AppCompatActivity {
         transition.show(selecCenaFragment);
         transition.hide(selecHorarioFragment);
         transition.commit();
-
     }
 
     public void pasarCama(View v) {
