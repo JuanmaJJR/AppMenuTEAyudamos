@@ -3,6 +3,8 @@ package com.example.juanjusue.appmenuteayudamos.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,21 +24,21 @@ import java.util.HashMap;
  */
 public class SelecMenuFragment extends Fragment {
 
-    SelecMenuFragmentEvents events;
-    ImageButton imgEleccion11;
-    ImageButton imgEleccion12;
-    ImageButton imgEleccion21;
-    ImageButton imgEleccion22;
-    ImageButton imgEleccion23;
-    ImageButton imgEleccion31;
-    ImageButton imgEleccion32;
-    CheckBox cbEleccion11;
-    CheckBox cbEleccion12;
-    CheckBox cbEleccion21;
-    CheckBox cbEleccion22;
-    CheckBox cbEleccion23;
-    CheckBox cbEleccion31;
-    CheckBox cbEleccion32;
+    public SelecMenuFragmentEvents events;
+    public ImageButton imgEleccion11;
+    public ImageButton imgEleccion12;
+    public ImageButton imgEleccion21;
+    public ImageButton imgEleccion22;
+    public ImageButton imgEleccion23;
+    public ImageButton imgEleccion31;
+    public ImageButton imgEleccion32;
+    public CheckBox cbEleccion11;
+    public CheckBox cbEleccion12;
+    public CheckBox cbEleccion21;
+    public CheckBox cbEleccion22;
+    public CheckBox cbEleccion23;
+    public CheckBox cbEleccion31;
+    public CheckBox cbEleccion32;
     Button btnFin;
 
     public SelecMenuFragment() {
@@ -121,82 +123,9 @@ class SelecMenuFragmentEvents implements HttpJsonAsyncTaskListener, View.OnClick
 
     @Override
     public void onClick(View v) {
+        Log.v("DESY","SSSSSSSSSSSSSSSSSSSSSSSSSSSSIII--..");
         //Actualizamos el objeto menu, dependiendo del dia lo haremos de uno o de otro.
         if(v.getId()==R.id.btnFinalizar){
-            if(main.menu.getDia().equals("hoy")){
-                if(selecMenuFragment.cbEleccion11.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion12.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion21.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion22.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion23.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion31.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMenuFragment.cbEleccion32.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
-                    main.menu.setMenuDia1(map);
-                }
-            }
-            if(main.menu.getDia().equals("manana")){
-                if(selecMenuFragment.cbEleccion11.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion12.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion21.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion22.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion23.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion31.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMenuFragment.cbEleccion32.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
-                    main.menu.setMenuDia2(map);
-                }
-            }
 
         }
     }

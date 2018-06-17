@@ -36,6 +36,8 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
@@ -93,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
                 formularioFinalFragment=(FormularioFinalFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentFormuFinal);
                 ///______________________________________________________________________________________\\\
 
+
+
                 ///___________Transicciones iniciales_________________________\\\
                 FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
                 transition.show(loginFragment);
@@ -104,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 transition.hide(selecMeriendaFragment);
                 transition.hide(selecCenaFragment);
                 transition.hide(selecHorarioFragment);
+                transition.hide(formularioFinalFragment);
 
                 transition.commit();
 
@@ -221,11 +226,474 @@ public class MainActivity extends AppCompatActivity {
         transition.commit();
 
     }
+    public void compDes(View v){
+        HashMap<String,ArrayList<String>> map;
+        map = new HashMap<>();
+        if(menu.getDia().equals("Hoy")){
+            if(selecMenuFragment.cbEleccion11.isChecked()){
+                Log.v("DESY","SELECC");
+                map = menu.getMenuDia1();
+                ArrayList current = new ArrayList();
+                current =  map.get("Desayuno");
+                Log.v("DESY",current.toString());
+                current.add((String)selecMenuFragment.cbEleccion11.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion12.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion21.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion22.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion23.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion31.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
+                menu.setMenuDia1(map);
+            }
+            if(selecMenuFragment.cbEleccion32.isChecked()){
+                map = menu.getMenuDia1();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
+                menu.setMenuDia1(map);
+            }
+        }
+        if(menu.getDia().equals("Manana")){
+            if(selecMenuFragment.cbEleccion11.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion11.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion12.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion12.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion21.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion21.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion22.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion22.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion23.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion23.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion31.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion31.getText());
+                menu.setMenuDia2(map);
+            }
+            if(selecMenuFragment.cbEleccion32.isChecked()){
+                map = menu.getMenuDia2();
+                map.get("Desayuno").add((String)selecMenuFragment.cbEleccion32.getText());
+                menu.setMenuDia2(map);
+            }
+        }
 
-    public void pasarFormuFinal(View v) {
         FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(selecHorarioFragment);
+        transition.hide(selecMenuFragment);
+        transition.commit();
+    }
+    public void compCom(View v){
+        HashMap<String,ArrayList<String>> map;
+        map = new HashMap<>();
+        if(v.getId()==R.id.btnFinalizarCom){
+            if(menu.getDia().equals("Hoy")){
+                if(selecComidaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion11.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion12.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion13.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion13.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion14.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion14.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion21.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion22.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion23.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion24.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion31.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion31.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion32.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion32.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion33.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion33.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecComidaFragment.cbEleccion34.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion34.getText());
+                    menu.setMenuDia1(map);
+                }
+            }
+            if(menu.getDia().equals("Manana")){
+                if(selecComidaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion11.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion12.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion13.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion13.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion14.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion14.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion21.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion22.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion23.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion24.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion31.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion31.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion32.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion32.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion33.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion33.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecComidaFragment.cbEleccion34.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Comida").add((String)selecComidaFragment.cbEleccion34.getText());
+                    menu.setMenuDia2(map);
+                }
+            }
+
+            FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+            transition.show(selecHorarioFragment);
+            transition.hide(selecComidaFragment);
+            transition.commit();
+        }
+    }
+    public void compMer(View v){
+        HashMap<String,ArrayList<String>> map;
+        map = new HashMap<>();
+        if(v.getId()==R.id.btnFinalizarMer){
+            if(menu.getDia().equals("Hoy")){
+                if(selecMeriendaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion11.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecMeriendaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion12.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecMeriendaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion21.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecMeriendaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion22.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecMeriendaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion23.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecMeriendaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion24.getText());
+                    menu.setMenuDia1(map);
+                }
+            }
+            if(menu.getDia().equals("Manana")){
+                if(selecMeriendaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion11.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecMeriendaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion12.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecMeriendaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion21.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecMeriendaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion22.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecMeriendaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion23.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecMeriendaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion24.getText());
+                    menu.setMenuDia2(map);
+                }
+            }
+            FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+            transition.show(selecHorarioFragment);
+            transition.hide(selecMeriendaFragment);
+            transition.commit();
+        }
+
+    }
+    public void compCen(View v) {
+        HashMap<String, ArrayList<String>> map;
+        map = new HashMap<>();
+        if(v.getId()==R.id.btnFinalizarCen){
+            if(menu.getDia().equals("Hoy")){
+                if(selecCenaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion11.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion12.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion13.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion13.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion14.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion14.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion21.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion22.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion23.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion24.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion31.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion31.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion32.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion32.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion33.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion33.getText());
+                    menu.setMenuDia1(map);
+                }
+                if(selecCenaFragment.cbEleccion34.isChecked()){
+                    map = menu.getMenuDia1();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion34.getText());
+                    menu.setMenuDia1(map);
+                }
+            }
+            if(menu.getDia().equals("Manana")){
+                if(selecCenaFragment.cbEleccion11.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion11.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion12.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion12.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion13.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion13.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion14.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion14.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion21.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion21.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion22.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion22.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion23.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion23.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion24.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion24.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion31.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion31.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion32.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion32.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion33.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion33.getText());
+                    menu.setMenuDia2(map);
+                }
+                if(selecCenaFragment.cbEleccion34.isChecked()){
+                    map = menu.getMenuDia2();
+                    map.get("Cena").add((String)selecCenaFragment.cbEleccion34.getText());
+                    menu.setMenuDia2(map);
+                }
+            }
+            FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+            transition.show(selecHorarioFragment);
+            transition.hide(selecCenaFragment);
+            transition.commit();
+        }
+    }
+    public void FormuFinal(View v) throws UnsupportedEncodingException{
+        PHPost phPost = new PHPost(menu);
+        phPost.GetText();
+    }
+    public void pasarFormuFinal(View v)  {
+        //SETERS
+        formularioFinalFragment.etxtDesayuno1.setText(menu.getMenuDia1().get("Desayuno").get(0));
+        formularioFinalFragment.etxtDesayuno2.setText(menu.getMenuDia1().get("Desayuno").get(1));
+        formularioFinalFragment.etxtDesayuno3.setText(menu.getMenuDia1().get("Desayuno").get(2));
+
+        formularioFinalFragment.etxtComida1.setText(menu.getMenuDia1().get("comida").get(0));
+        formularioFinalFragment.etxtComida2.setText(menu.getMenuDia1().get("comida").get(1));
+        formularioFinalFragment.etxtComida3.setText(menu.getMenuDia1().get("comida").get(2));
+
+        formularioFinalFragment.etxtMerienda1.setText(menu.getMenuDia1().get("merienda").get(0));
+        formularioFinalFragment.etxtMerienda2.setText(menu.getMenuDia1().get("merienda").get(1));
+
+        formularioFinalFragment.etxtCena1.setText(menu.getMenuDia1().get("cena").get(0));
+        formularioFinalFragment.etxtCena2.setText(menu.getMenuDia1().get("cena").get(1));
+        formularioFinalFragment.etxtCena3.setText(menu.getMenuDia1().get("cena").get(2));
 
 
+        formularioFinalFragment.etxtDesayuno1Ma.setText(menu.getMenuDia2().get("Desayuno").get(0));
+        formularioFinalFragment.etxtDesayuno2Ma.setText(menu.getMenuDia2().get("Desayuno").get(1));
+        formularioFinalFragment.etxtDesayuno3Ma.setText(menu.getMenuDia2().get("Desayuno").get(2));
+
+        formularioFinalFragment.etxtComida1Ma.setText(menu.getMenuDia2().get("comida").get(0));
+        formularioFinalFragment.etxtComida2Ma.setText(menu.getMenuDia2().get("comida").get(1));
+        formularioFinalFragment.etxtComida3Ma.setText(menu.getMenuDia2().get("comida").get(2));
+
+        formularioFinalFragment.etxtMerienda1Ma.setText(menu.getMenuDia2().get("merienda").get(0));
+        formularioFinalFragment.etxtMerienda2Ma.setText(menu.getMenuDia2().get("merienda").get(1));
+
+        formularioFinalFragment.etxtCena1Ma.setText(menu.getMenuDia2().get("cena").get(0));
+        formularioFinalFragment.etxtCena2Ma.setText(menu.getMenuDia2().get("cena").get(1));
+        formularioFinalFragment.etxtCena3Ma.setText(menu.getMenuDia2().get("cena").get(2));
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
         transition.show(formularioFinalFragment);
         transition.hide(selecDiaFragment);
         transition.commit();

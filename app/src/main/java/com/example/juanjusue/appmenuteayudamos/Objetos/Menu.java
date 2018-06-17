@@ -13,8 +13,7 @@ public class Menu {
     HashMap<String,ArrayList<String>>menuDia2;
     String dia;
 
-    public void Menu(){
-
+    public Menu() {
         //Menu 1
         menuDia1 = new HashMap<String,ArrayList<String>>();
         menuDia1.put("Desayuno", new ArrayList<String>());
@@ -27,7 +26,8 @@ public class Menu {
         menuDia2.put("Comida", new ArrayList<String>());
         menuDia2.put("Merienda", new ArrayList<String>());
         menuDia2.put("Cena", new ArrayList<String>());
-
+        this.menuDia1 = menuDia1;
+        this.menuDia2 = menuDia2;
     }
 
     public HashMap<String, ArrayList<String>> getMenuDia1() {

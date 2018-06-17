@@ -156,7 +156,9 @@
                     android:id="@+id/btnFinalizarMer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Finalizar" />
+                    android:text="Finalizar"
+                    android:onClick="compMer"
+                    />
 
             </LinearLayout>
         </ScrollView>

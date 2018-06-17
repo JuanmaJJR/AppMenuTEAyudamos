@@ -28,12 +28,12 @@ public class SelecMeriendaFragment extends Fragment {
     ImageButton imgEleccion22;
     ImageButton imgEleccion23;
     ImageButton imgEleccion24;
-    CheckBox cbEleccion11;
-    CheckBox cbEleccion12;
-    CheckBox cbEleccion21;
-    CheckBox cbEleccion22;
-    CheckBox cbEleccion23;
-    CheckBox cbEleccion24;
+    public CheckBox cbEleccion11;
+    public CheckBox cbEleccion12;
+    public CheckBox cbEleccion21;
+    public CheckBox cbEleccion22;
+    public CheckBox cbEleccion23;
+    public CheckBox cbEleccion24;
     Button btnFin;
 
     public SelecMeriendaFragment() {
@@ -92,72 +92,6 @@ class SelecMeriendaFragmentEvents implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.btnFinalizarMer){
-            if(main.menu.getDia().equals("hoy")){
-                if(selecMeriendaFragment.cbEleccion11.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion11.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMeriendaFragment.cbEleccion12.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion12.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMeriendaFragment.cbEleccion21.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion21.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMeriendaFragment.cbEleccion22.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion22.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMeriendaFragment.cbEleccion23.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion23.getText());
-                    main.menu.setMenuDia1(map);
-                }
-                if(selecMeriendaFragment.cbEleccion24.isChecked()){
-                    map = main.menu.getMenuDia1();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion24.getText());
-                    main.menu.setMenuDia1(map);
-                }
-            }
-            if(main.menu.getDia().equals("manana")){
-                if(selecMeriendaFragment.cbEleccion11.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion11.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMeriendaFragment.cbEleccion12.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion12.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMeriendaFragment.cbEleccion21.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion21.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMeriendaFragment.cbEleccion22.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion22.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMeriendaFragment.cbEleccion23.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion23.getText());
-                    main.menu.setMenuDia2(map);
-                }
-                if(selecMeriendaFragment.cbEleccion24.isChecked()){
-                    map = main.menu.getMenuDia2();
-                    map.get("Merienda").add((String)selecMeriendaFragment.cbEleccion24.getText());
-                    main.menu.setMenuDia2(map);
-                }
-            }
 
-        }
     }
 }

@@ -270,7 +270,9 @@
                     android:id="@+id/btnFinalizarCen"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Finalizar" />
+                    android:text="Finalizar"
+                    android:onClick="compCen"
+                    />
 
             </LinearLayout>
         </ScrollView>

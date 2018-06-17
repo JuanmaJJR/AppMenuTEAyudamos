@@ -15,28 +15,28 @@ import com.example.juanjusue.appmenuteayudamos.R;
  * A simple {@link Fragment} subclass.
  */
 public class FormularioFinalFragment extends Fragment {
-    EditText etxtDesayuno1;
-    EditText etxtDesayuno2;
-    EditText etxtDesayuno3;
-    EditText etxtComida1;
-    EditText etxtComida2;
-    EditText etxtComida3;
-    EditText etxtMerienda1;
-    EditText etxtMerienda2;
-    EditText etxtCena1;
-    EditText etxtCena2;
-    EditText etxtCena3;
-    EditText etxtDesayuno1Ma;
-    EditText etxtDesayuno2Ma;
-    EditText etxtDesayuno3Ma;
-    EditText etxtComida1Ma;
-    EditText etxtComida2Ma;
-    EditText etxtComida3Ma;
-    EditText etxtMerienda1Ma;
-    EditText etxtMerienda2Ma;
-    EditText etxtCena1Ma;
-    EditText etxtCena2Ma;
-    EditText etxtCena3Ma;
+    public EditText etxtDesayuno1;
+    public EditText etxtDesayuno2;
+    public EditText etxtDesayuno3;
+    public EditText etxtComida1;
+    public EditText etxtComida2;
+    public EditText etxtComida3;
+    public EditText etxtMerienda1;
+    public EditText etxtMerienda2;
+    public EditText etxtCena1;
+    public EditText etxtCena2;
+    public EditText etxtCena3;
+    public EditText etxtDesayuno1Ma;
+    public EditText etxtDesayuno2Ma;
+    public EditText etxtDesayuno3Ma;
+    public EditText etxtComida1Ma;
+    public EditText etxtComida2Ma;
+    public EditText etxtComida3Ma;
+    public EditText etxtMerienda1Ma;
+    public EditText etxtMerienda2Ma;
+    public EditText etxtCena1Ma;
+    public EditText etxtCena2Ma;
+    public EditText etxtCena3Ma;
 
 
 
@@ -79,37 +79,7 @@ public class FormularioFinalFragment extends Fragment {
         etxtCena2Ma = v.findViewById(R.id.etxtCena2Ma);
         etxtCena3Ma = v.findViewById(R.id.etxtCena3Ma);
 
-        //SETERS
-        etxtDesayuno1.setText(main.menu.getMenuDia1().get("desayuno").get(0));
-        etxtDesayuno2.setText(main.menu.getMenuDia1().get("desayuno").get(1));
-        etxtDesayuno3.setText(main.menu.getMenuDia1().get("desayuno").get(2));
 
-        etxtComida1.setText(main.menu.getMenuDia1().get("comida").get(0));
-        etxtComida2.setText(main.menu.getMenuDia1().get("comida").get(1));
-        etxtComida3.setText(main.menu.getMenuDia1().get("comida").get(2));
-
-        etxtMerienda1.setText(main.menu.getMenuDia1().get("merienda").get(0));
-        etxtMerienda2.setText(main.menu.getMenuDia1().get("merienda").get(1));
-
-        etxtCena1.setText(main.menu.getMenuDia1().get("cena").get(0));
-        etxtCena2.setText(main.menu.getMenuDia1().get("cena").get(1));
-        etxtCena3.setText(main.menu.getMenuDia1().get("cena").get(2));
-
-
-        etxtDesayuno1Ma.setText(main.menu.getMenuDia2().get("desayuno").get(0));
-        etxtDesayuno2Ma.setText(main.menu.getMenuDia2().get("desayuno").get(1));
-        etxtDesayuno3Ma.setText(main.menu.getMenuDia2().get("desayuno").get(2));
-
-        etxtComida1Ma.setText(main.menu.getMenuDia2().get("comida").get(0));
-        etxtComida2Ma.setText(main.menu.getMenuDia2().get("comida").get(1));
-        etxtComida3Ma.setText(main.menu.getMenuDia2().get("comida").get(2));
-
-        etxtMerienda1Ma.setText(main.menu.getMenuDia2().get("merienda").get(0));
-        etxtMerienda2Ma.setText(main.menu.getMenuDia2().get("merienda").get(1));
-
-        etxtCena1Ma.setText(main.menu.getMenuDia2().get("cena").get(0));
-        etxtCena2Ma.setText(main.menu.getMenuDia2().get("cena").get(1));
-        etxtCena3Ma.setText(main.menu.getMenuDia2().get("cena").get(2));
 
         return v;
     }
