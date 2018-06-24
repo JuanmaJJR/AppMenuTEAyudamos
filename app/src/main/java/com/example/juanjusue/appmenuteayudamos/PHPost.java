@@ -91,7 +91,6 @@ public class PHPost {
     {
         // Get user defined values
 
-
         // Create data variable for sent values to server
 
         String data = URLEncoder.encode("DesayHoy1", "UTF-8")
@@ -160,6 +159,7 @@ public class PHPost {
         data += "&" + URLEncoder.encode("CenaMan3", "UTF-8")
                 + "=" + URLEncoder.encode(CenaMan3, "UTF-8");
 
+
         String text = "";
         BufferedReader reader=null;
 
@@ -171,7 +171,6 @@ public class PHPost {
             URL url = new URL("http://juanmajusue.com/phptea.php");
 
             // Send POST data request
-
             URLConnection conn = url.openConnection();
             conn.setDoOutput(true);
             OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());

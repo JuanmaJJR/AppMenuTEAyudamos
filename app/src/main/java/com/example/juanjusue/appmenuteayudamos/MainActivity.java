@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.juanjusue.appmenuteayudamos.Asynctasks.HttpJsonAsyncTaskListener;
+import com.example.juanjusue.appmenuteayudamos.Fragments.BlankFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.FTPFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.FormularioFinalFragment;
 import com.example.juanjusue.appmenuteayudamos.Fragments.LoginFragment;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     SelecMeriendaFragment selecMeriendaFragment;
     SelecCenaFragment selecCenaFragment;
     FormularioFinalFragment formularioFinalFragment;
+    BlankFragment blankFragment;
     public Menu menu;
     public JSON json;
     String server="ftp.hospitaldefuenlabrada.org";
@@ -93,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 selecCenaFragment = (SelecCenaFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionCen);
                 selecHorarioFragment = (SelecHorarioFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentSeleccionHorario);
                 formularioFinalFragment=(FormularioFinalFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentFormuFinal);
+                blankFragment = (BlankFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentBlank);
                 ///______________________________________________________________________________________\\\
 
 
@@ -109,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 transition.hide(selecCenaFragment);
                 transition.hide(selecHorarioFragment);
                 transition.hide(formularioFinalFragment);
+                transition.hide(blankFragment);
 
                 transition.commit();
 
@@ -753,6 +757,10 @@ public class MainActivity extends AppCompatActivity {
     public void FormuFinal(View v) throws UnsupportedEncodingException{
         PHPost phPost = new PHPost(menu);
         phPost.GetText();
+        FragmentTransaction transition = getSupportFragmentManager().beginTransaction();
+        transition.show(blankFragment);
+        transition.hide(formularioFinalFragment);
+        transition.commit();
     }
     public void pasarFormuFinal(View v)  {
         //SETERS
